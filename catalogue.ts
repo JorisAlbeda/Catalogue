@@ -48,6 +48,10 @@ export function walk(dir: string): string[] {
   return files
 }
 
+function capitalizeFirst(name: string): string {
+  return name.length > 0 ? name[0].toUpperCase() + name.slice(1) : name
+}
+
 function slugify(name: string): string {
   return name
     .toLowerCase()
@@ -108,7 +112,7 @@ export async function extractCatalogue(
 
     for (const category of CATEGORIES) {
       for (const rawName of extracted[category] ?? []) {
-        const name = rawName.trim()
+        const name = capitalizeFirst(rawName.trim())
         if (!name) continue
         const slug = slugify(name)
         const key = `${category}:${slug}`
@@ -257,6 +261,7 @@ function entryPrompt(
 
   return `Write a codex entry for the ${kind} "${entity.name}", using only the source text below.
 Do not invent details that aren't supported by the text.
+Write the "description" and "history" entirely in past tense, even if the source text uses present tense.
 
 Respond with ONLY a JSON object in this exact shape, with no extra commentary:
 {"description": string, "history": string, "location": string}
