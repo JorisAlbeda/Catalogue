@@ -56,7 +56,15 @@ function slugify(name: string): string {
     .replace(/^-+|-+$/g, "")
 }
 
-function extractionPrompt(text: string): string {
+function extractionPrompt(
+  text: string,
+  known: Record<Category, string[]>,
+): string {
+  const knownBlock = CATEGORIES.map((category) => {
+    const names = known[category]
+    return `${category}: ${names.length > 0 ? names.join(", ") : "(none yet)"}`
+  }).join("\n")
+
   return `You are cataloguing a fantasy campaign setting from source text.
 Read the text below and extract every entity explicitly named in it that fits one of these categories:
 - buildings: distinct constructed structures (temples, fortresses, houses, taverns, etc.)
@@ -64,6 +72,11 @@ Read the text below and extract every entity explicitly named in it that fits on
 - events: named or clearly distinct occurrences (battles, ceremonies, journeys, etc.)
 - locations: named places that are not buildings (regions, forests, roads, ruins, etc.)
 - relics: named items, artifacts, or objects of significance
+
+Entities already catalogued from other documents (by category):
+${knownBlock}
+
+If an entity in this text is the same as one already catalogued above — even if this text refers to it by a different name, nickname, alias, or description (for example "Sticky Fire" and "Verdflayme orb" naming the same relic) — reuse that exact existing name verbatim instead of inventing a new one. Only use a new name when the entity is not already catalogued above.
 
 Only include entities that are explicitly named in the text. Do not invent anything, and do not include duplicates.
 Respond with ONLY a JSON object in this exact shape, with no extra commentary:
@@ -81,8 +94,16 @@ export async function extractCatalogue(
   for (const [i, file] of files.entries()) {
     console.log(`[phase 1] extracting ${i + 1}/${files.length}: ${file}`)
     const text = fs.readFileSync(file, "utf8")
+    const known = Object.fromEntries(
+      CATEGORIES.map((category) => [
+        category,
+        [...entities.values()]
+          .filter((e) => e.category === category)
+          .map((e) => e.name),
+      ]),
+    ) as Record<Category, string[]>
     const extracted = await chatJSON<Record<Category, string[]>>(
-      extractionPrompt(text),
+      extractionPrompt(text, known),
     )
 
     for (const category of CATEGORIES) {
