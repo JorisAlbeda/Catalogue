@@ -26,7 +26,17 @@ export async function chat(prompt: string, model = "qwen3:8b"): Promise<string> 
 export async function chatJSON<T>(
   prompt: string,
   model = "qwen3:8b",
+  retries = 2,
 ): Promise<T> {
-  const content = await callOllama(model, prompt, "json")
-  return JSON.parse(content) as T
+  for (let attempt = 0; ; attempt++) {
+    const content = await callOllama(model, prompt, "json")
+    try {
+      return JSON.parse(content) as T
+    } catch (err) {
+      if (attempt >= retries) throw err
+      console.warn(
+        `chatJSON: model returned malformed JSON (attempt ${attempt + 1}/${retries + 1}), retrying`,
+      )
+    }
+  }
 }
