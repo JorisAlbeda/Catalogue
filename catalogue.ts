@@ -3,7 +3,7 @@ import path from "node:path"
 import { fileURLToPath } from "node:url"
 
 import { chatJSON } from "./llm.js"
-import { search } from "./search.js"
+import { search, searchBySource } from "./search.js"
 
 export const CATEGORIES = [
   "buildings",
@@ -210,12 +210,26 @@ export async function reconcileCatalogue(
 }
 
 async function buildContext(entity: CatalogueEntity): Promise<string> {
-  const matches = await search(entity.name, ENTRY_CONTEXT_CHUNKS)
+  const matches: Array<{ source: string; content: string }> = await search(
+    entity.name,
+    ENTRY_CONTEXT_CHUNKS,
+  )
   if (matches.length === 0) {
     console.warn(
       `[phase 2] no indexed chunks found for "${entity.name}" — is the RAG index built (npm run setup)?`,
     )
   }
+
+  // A similarity search ranks globally, so a source doc that was merged into
+  // this entity (phase 1.5) can still be entirely absent from `matches` if a
+  // more prolific doc crowds it out. Backfill any missing source directly so
+  // every document the entity was found in actually contributes to the entry.
+  const coveredSources = new Set(matches.map((m) => m.source))
+  const missingSources = entity.sources.filter((s) => !coveredSources.has(s))
+  for (const source of missingSources) {
+    matches.push(...searchBySource(source))
+  }
+
   return matches
     .map((m) => `### Source: ${m.source}\n${m.content}`)
     .join("\n\n")

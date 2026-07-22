@@ -20,3 +20,14 @@ export async function search(query: string, k = 4) {
   }>
   return rows
 }
+
+// Similarity search ranks globally across all sources, so a document that's
+// only lightly related to the query can still be crowded out entirely by a
+// more prolific one. This grabs chunks straight from one known source file,
+// as a fallback to guarantee it contributes to an entity's context.
+export function searchBySource(source: string, k = 2) {
+  const rows = db
+    .prepare("SELECT source, content FROM chunks WHERE source = ? LIMIT ?")
+    .all(source, k) as Array<{ source: string; content: string }>
+  return rows
+}
