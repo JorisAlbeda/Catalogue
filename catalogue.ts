@@ -274,11 +274,27 @@ SOURCE TEXT:
 ${context}`
 }
 
-function normalizeLocation(raw: string, candidateLocations: string[]): string {
+function normalizeLocation(
+  raw: string | undefined,
+  candidateLocations: string[],
+): string {
   const match = candidateLocations.find(
-    (name) => name.toLowerCase() === raw.trim().toLowerCase(),
+    (name) => name.toLowerCase() === (raw ?? "").trim().toLowerCase(),
   )
   return match ?? "Unknown"
+}
+
+// Ollama's JSON mode guarantees syntactically valid JSON, not that the model
+// actually included every requested key — so a "well-formed" response can
+// still come back with fields missing. Default them instead of crashing.
+function normalizeEntryContent(
+  raw: Partial<EntityEntryContent> | null | undefined,
+): EntityEntryContent {
+  return {
+    description: raw?.description?.trim() || "",
+    history: raw?.history?.trim() || "",
+    location: raw?.location ?? "",
+  }
 }
 
 function formatEntry(name: string, content: EntityEntryContent): string {
@@ -312,20 +328,30 @@ export async function populateCodex(
     console.log(
       `[phase 2] writing ${i + 1}/${ordered.length}: ${entity.category}/${entity.slug}`,
     )
-    const context = await buildContext(entity)
-    const important = entity.sources.length >= IMPORTANT_SOURCE_THRESHOLD
-    const candidateLocations = locationNames.filter(
-      (name) => name !== entity.name,
-    )
-    const raw = await chatJSON<EntityEntryContent>(
-      entryPrompt(entity, context, candidateLocations, important),
-    )
-    const content: EntityEntryContent = {
-      ...raw,
-      location: normalizeLocation(raw.location, candidateLocations),
+    try {
+      const context = await buildContext(entity)
+      const important = entity.sources.length >= IMPORTANT_SOURCE_THRESHOLD
+      const candidateLocations = locationNames.filter(
+        (name) => name !== entity.name,
+      )
+      const raw = await chatJSON<Partial<EntityEntryContent>>(
+        entryPrompt(entity, context, candidateLocations, important),
+      )
+      const content = normalizeEntryContent(raw)
+      if (!content.description || !content.history) {
+        console.warn(
+          `[phase 2] model response for ${entity.category}/${entity.slug} was missing fields — writing what we got`,
+        )
+      }
+      content.location = normalizeLocation(content.location, candidateLocations)
+      const filePath = path.join(codexDir, entity.category, `${entity.slug}.md`)
+      fs.writeFileSync(filePath, formatEntry(entity.name, content))
+    } catch (err) {
+      console.error(
+        `[phase 2] failed to write ${entity.category}/${entity.slug}, skipping:`,
+        err,
+      )
     }
-    const filePath = path.join(codexDir, entity.category, `${entity.slug}.md`)
-    fs.writeFileSync(filePath, formatEntry(entity.name, content))
   }
 }
 
