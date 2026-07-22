@@ -25,6 +25,10 @@ const DOCUMENTS_DIR = "./documents"
 const CODEX_DIR = "./codex"
 const MANIFEST_PATH = path.join(CODEX_DIR, "manifest.json")
 const ENTRY_CONTEXT_CHUNKS = 8
+// Hard ceiling on total chunks fed into a single entry prompt, even after
+// backfilling missing sources — past this, a small local model tends to
+// lose the instruction entirely and free-write narrative instead of JSON.
+const MAX_CONTEXT_CHUNKS = 12
 // An entity is "important" (gets longer description/history) once it's been
 // found explicitly named in at least this many source documents.
 const IMPORTANT_SOURCE_THRESHOLD = 3
@@ -227,11 +231,16 @@ async function buildContext(entity: CatalogueEntity): Promise<string> {
   // A similarity search ranks globally, so a source doc that was merged into
   // this entity (phase 1.5) can still be entirely absent from `matches` if a
   // more prolific doc crowds it out. Backfill any missing source directly so
-  // every document the entity was found in actually contributes to the entry.
+  // every document the entity was found in gets at least some representation
+  // — but a small local model loses the ability to follow instructions (and
+  // starts free-writing narrative instead of the requested JSON) once context
+  // grows into the tens of thousands of characters, so the total is capped
+  // regardless of how many sources the entity has merged.
   const coveredSources = new Set(matches.map((m) => m.source))
   const missingSources = entity.sources.filter((s) => !coveredSources.has(s))
   for (const source of missingSources) {
-    matches.push(...searchBySource(source))
+    if (matches.length >= MAX_CONTEXT_CHUNKS) break
+    matches.push(...searchBySource(source, 1))
   }
 
   return matches
