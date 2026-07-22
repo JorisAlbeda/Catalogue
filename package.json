@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "catalogue": "tsx catalogue.ts",
+    "catalogue:continue": "tsx catalogue.ts --continue",
     "setup": "tsx setup.ts",
     "start": "tsx index.ts"
   },

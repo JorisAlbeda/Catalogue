@@ -314,6 +314,7 @@ ${content.location}
 export async function populateCodex(
   entities: CatalogueEntity[],
   codexDir: string = CODEX_DIR,
+  skipExisting = false,
 ): Promise<void> {
   const locationNames = entities
     .filter((e) => e.category === "locations")
@@ -325,6 +326,14 @@ export async function populateCodex(
   )
 
   for (const [i, entity] of ordered.entries()) {
+    const filePath = path.join(codexDir, entity.category, `${entity.slug}.md`)
+    if (skipExisting && fs.existsSync(filePath)) {
+      console.log(
+        `[phase 2] skipping ${i + 1}/${ordered.length}: ${entity.category}/${entity.slug} (already written)`,
+      )
+      continue
+    }
+
     console.log(
       `[phase 2] writing ${i + 1}/${ordered.length}: ${entity.category}/${entity.slug}`,
     )
@@ -344,7 +353,6 @@ export async function populateCodex(
         )
       }
       content.location = normalizeLocation(content.location, candidateLocations)
-      const filePath = path.join(codexDir, entity.category, `${entity.slug}.md`)
       fs.writeFileSync(filePath, formatEntry(entity.name, content))
     } catch (err) {
       console.error(
@@ -356,25 +364,34 @@ export async function populateCodex(
 }
 
 async function main() {
-  // Phase 1: discover entities from the documents and set up the folder structure
-  const files = walk(DOCUMENTS_DIR)
-  console.log(`Found ${files.length} document(s) in ${DOCUMENTS_DIR}`)
+  const shouldContinue = process.argv.includes("--continue")
+
+  let entities: CatalogueEntity[]
+  if (shouldContinue) {
+    console.log(`Resuming phase 2 from existing ${MANIFEST_PATH}`)
+    entities = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"))
+  } else {
+    // Phase 1: discover entities from the documents and set up the folder structure
+    const files = walk(DOCUMENTS_DIR)
+    console.log(`Found ${files.length} document(s) in ${DOCUMENTS_DIR}`)
+
+    const rawEntities = await extractCatalogue(files)
+    console.log(`Extracted ${rawEntities.length} raw entities`)
+
+    // Phase 1.5: merge remaining cross-document duplicates the model didn't
+    // catch during extraction
+    entities = await reconcileCatalogue(rawEntities)
+    fs.writeFileSync(MANIFEST_PATH, JSON.stringify(entities, null, 2))
+    console.log(`Catalogued ${entities.length} entities -> ${MANIFEST_PATH}`)
+  }
 
   for (const category of CATEGORIES) {
     fs.mkdirSync(path.join(CODEX_DIR, category), { recursive: true })
   }
 
-  const rawEntities = await extractCatalogue(files)
-  console.log(`Extracted ${rawEntities.length} raw entities`)
-
-  // Phase 1.5: merge remaining cross-document duplicates the model didn't
-  // catch during extraction
-  const entities = await reconcileCatalogue(rawEntities)
-  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(entities, null, 2))
-  console.log(`Catalogued ${entities.length} entities -> ${MANIFEST_PATH}`)
-
-  // Phase 2: populate one file per entity
-  await populateCodex(entities)
+  // Phase 2: populate one file per entity. When resuming, skip entities that
+  // already have a file on disk from before the interruption.
+  await populateCodex(entities, CODEX_DIR, shouldContinue)
   console.log("Done.")
 }
 

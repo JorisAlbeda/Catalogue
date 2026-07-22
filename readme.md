@@ -46,6 +46,14 @@ Runs a two-phase pipeline over `documents/`:
    - **Description** and **History** (longer for entities that recur across many documents)
    - **Location** — a cross-reference to an entry in `codex/locations/`, or `Unknown` if none applies
 
+If population is interrupted partway through (crash, reboot, etc.), rerun with:
+
+```
+npm run catalogue:continue
+```
+
+This reuses the existing `codex/manifest.json` instead of re-running discovery, and skips any `codex/<category>/<slug>.md` that's already been written.
+
 ## Project structure
 
 | File | Purpose |
