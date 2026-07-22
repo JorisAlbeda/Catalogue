@@ -275,8 +275,8 @@ Write the "description" and "history" entirely in past tense, even if the source
 Respond with ONLY a JSON object in this exact shape, with no extra commentary:
 {"description": string, "history": string, "location": string}
 
-- "description": ${length} describing what "${entity.name}" is.
-- "history": ${length} covering its history, or how it came to be, as described in the text.
+- "description": ${length}, in past tense, describing what "${entity.name}" was.
+- "history": ${length}, in past tense, covering its history, or how it came to be, as described in the text.
 - "location": the ${locationKind} most associated with "${entity.name}". ${locationRule}
 
 SOURCE TEXT:
