@@ -1,4 +1,4 @@
-# Converse — Corvin & Perrin (Round 8, #1)
+# Corvin & Perrin, Past the Lamp Going Out
 
 **Setting:** The mill at Fertile Valley, after dark. Bettina Marsh's lamp still burns behind the shutters, but Corvin doesn't knock there — he finds Perrin outside, sitting on the same crate he'd been kneeling by when Colm Rooke found him, the key already back on its nail.
 

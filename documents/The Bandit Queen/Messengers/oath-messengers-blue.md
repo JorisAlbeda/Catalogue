@@ -1,14 +1,14 @@
 # Messengers — Blue
 
-## Round 7 — from Perrin Ashe (Black), via Fenn
+## From Perrin Ashe, via Fenn
 
 Fenn slips into Corvin's camp near dusk, choosing the horse-trough post at the camp's edge over the fire circle, and speaks the words once, quietly, to the first sentry who'll listen. The message: "Corvin — the Chancellor took your prize back before you could claim it, same week she named me her enemy for turning down everything she offered at the Ruined Temple, mask included. I still owe you that answer about the key, and I haven't forgotten it. I don't know what you mean to do with the time that's left, but I'd rather spend what's left of mine working against her than against you, if it comes to a choice. That's all — no promises asked, none given."
 
-## Round 8 — from Perrin Ashe (Black), in his own hand
+## From Perrin Ashe, in his own hand
 
 No messenger this time — Perrin writes it himself, folded plain, no seal. "Corvin — I went to the mill and took the key down. It opened a strongbox that's sat under the millstone longer than either of us has been alive. No charter inside, no deed, nothing that would have won either of us a single site. Just a letter, in Halvard's own hand, written to whoever came looking one day. He said he spent his reign mistaking the valley for the thing worth keeping, and that whoever found this should already know better than that, or learn it fast, before the ground changes hands. I put it back where it was. I don't think it was ever mine to keep, and it was never yours to be owed — but you asked plainly, so here's the plain answer, whatever's left of today or tomorrow to do anything with it. Whatever the round decides, I'd rather have settled this with you than left it sitting open. Perrin."
 
-## Two months after Round 8 — from Sorrel Wick (White), in her own hand
+## Two months after the war, from Sorrel Wick, in her own hand
 
 No messenger — she leaves it with Bettina before first light, folded once, no seal, addressed in the same ink-stained hand as everything else she's ever written. "Corvin — I left before you were up, which is its own kind of answer, so I'll give you the honest one instead of the tidy one I gave you at the Temple.
 

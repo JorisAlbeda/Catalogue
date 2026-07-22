@@ -24,7 +24,7 @@ Sorrel touched the coat's inside seam without pulling the cloth out. "Wren gave 
 
 "Come here." She walks to the largest window, pointing at a shape barely visible in the dusk — hard to tell if it's a statue or an altar, but it looks like some kind of memorial. "That's where she fell. That's where the Fire Talkers took her." She eyes her friend. "It was always a fairy tale. And now I'm standing here — and now Perrin's declared war on us. Everything's becoming so real, Sorrel."
 
-Sorrel didn't offer her anything soft, just looked at the shape in the dusk a moment longer. "Real's better than the fairy tale you grew up on — you can actually do something about real. And you're not standing here alone with it. I put warbands on Charming Valley this week for exactly the reason you think."
+Sorrel didn't offer her anything soft, just looked at the shape in the dusk a moment longer. "Real's better than the fairy tale you grew up on — you can actually do something about real. And you're not standing here alone with it. I put my own people on Charming Valley's walls this week for exactly the reason you think."
 
 "Yeah..." She nods slowly. "Yes. You're right. You can actually do something about real. Let's do something real." She turns away from the window. "Thanks for defending the capital. Say... what's all this I'm hearing about you raising the Banner of People's Favor? Mom's been warning me about you starting a rebellion."
 

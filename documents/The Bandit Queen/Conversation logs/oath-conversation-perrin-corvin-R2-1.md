@@ -1,4 +1,4 @@
-# Converse — Corvin & Perrin (Round 2, #1)
+# Corvin & Perrin, at the Mill
 
 **Setting:** The mill at Fertile Valley, weeks after the second defeat. Perrin's word came by runner, not by challenge — a place, a time, nothing else written down.
 

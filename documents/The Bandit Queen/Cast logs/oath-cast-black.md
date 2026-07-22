@@ -2,35 +2,28 @@
 
 ## Fenn
 
-- Source card: Convoys
-- Ability: Action — take another region's discard pile and put it on top of your own region's discard pile (even if empty).
-- Ability cost: 1 favor
+- Talent: Has a gift for talking a caravan into taking the long road through friendly ground instead of the short one — can turn an entire wagon train, or a company of stragglers, onto Perrin's own roads instead of wherever they were headed, so long as someone's willing to owe him a favor for it.
 - Quirk: Counts wagon wheels under his breath before every departure — insists it's for luck, won't say whose.
-- Status: facedown (Denizen only)
-- First appeared: Setup — taken as Perrin's starting adviser at Fertile Valley.
+- Status: Kept close at Fertile Valley the whole war, more a quiet voice at Perrin's shoulder than a hand actually put to use.
+- First appeared: At the very start, already standing at Fertile Valley's side.
 
 ## Brack
 
-- Source card: Boiling Lake
-- Ability: If a player travels to this site without ruling it, they must kill two of their own warbands on their board, if able.
-- Ability cost: none (passive, triggers on another player's Travel)
+- Talent: Keeps a pot always boiling at Boiling Lake, and it's said that anyone who wanders onto the ground without leave to be there pays for it before they've even sat down — usually in blood, sometimes just in two good men left behind.
 - Quirk: Keeps something always simmering in the pot — claims a quiet lake is an angry one, won't let the fire go out even to sleep.
-- Status: Denizen at Fertile Valley
-- First appeared: Setup - Chronicled Denizen at Fertile Valley
+- Status: Still tending Boiling Lake at Fertile Valley.
+- First appeared: There from the very start, already at Fertile Valley before anyone else arrived.
 
 ## Bettina Marsh
 
-- Source: narrative-only (mill keeper, Fertile Valley — not a card)
 - Quirk: Says little and means all of it; has kept Halvard Cray's old iron key on the same nail since before Perrin was born, and has never once been asked to take it down until now.
-- Status: at the mill, Fertile Valley
-- First appeared: Round 1 (background), first spoken to directly Round 8 — let Perrin take the key down and open what it opens, after a whole war spent visiting and never asking.
+- Status: At the mill, Fertile Valley.
+- First appeared: In the background from the first days, first spoken to directly in the war's last stretch — let Perrin take the key down and open what it opens, after a whole war spent visiting and never asking.
 
 ## Daz
 
-- Source card: Dazzle
-- Ability: When played, discard all cards of two given suits at sites in its ruler's region. (One-time reveal trigger — already resolved when Lilianne played it; nothing left to activate.)
-- Ability cost: none (already spent)
+- Talent: Cleared two whole trading circuits of rival merchants in a single week when he first threw in with the Empire — nobody left standing to compete with him at either table. Nothing left of that trick to use twice; whatever he deals in now, he deals in plainly.
 - Quirk: Deals with whoever's standing in front of him, friend or the man who tried to kill him an hour before — business is business.
-- Status: Denizen at Narrow Pass, ruled by the Bandits
-- First appeared: Round 4 — traded with at Narrow Pass immediately after the failed Campaign against him.
-- Round 6: the Chancellor knows him as "the Bandit Witch of the Narrow Pass" — a title nobody at his own table has ever used.
+- Status: Ran the trading post at Narrow Pass under the Empire's own colors until Perrin took the ground outright; still there, under Ashvale's now.
+- First appeared: Early in the war — traded with him at Narrow Pass immediately after Perrin's own failed attack on him.
+- Later in the war, word reached camp that the Chancellor herself knows him as "the Bandit Witch of the Narrow Pass" — a title nobody at his own table has ever used.

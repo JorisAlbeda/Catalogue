@@ -1,4 +1,4 @@
-# Conversation — Sorrel Wick, her advisers, and Daz (Round 8)
+# Conversation — Sorrel Wick, Ossa, Fen Quill, Marlow Ash, and Daz (Round 8)
 
 Narrow Pass narrowed to nothing wider than a cart track by the time they reached Daz's door — a low stone hut wedged into the defile's own throat, smoke curling from a chimney too crooked to have been built by anyone who cared what it looked like. Sorrel knocked once, out of habit rather than hope anyone would mind, and let herself in when nobody answered.
 
@@ -26,7 +26,7 @@ Sorrel was quiet a moment, turning that over. "She used to leave things lying ar
 
 "That's not comfort, Ossa."
 
-"Wasn't meant to be. You've got what's left of the people who followed you out of Buried Giant, Fen Quill and Marlow and me still at your elbow, and no crown, no banner, no roof — which, near as I can tell, is exactly what you started this whole business with, except now nobody's confused about what you actually are. You spent five rounds trying to be somebody's Citizen and one trying to be somebody's Successor and you lost both. Try being an Exile properly for once. See how that one fits."
+"Wasn't meant to be. You've got what's left of the people who followed you out of Buried Giant, Fen Quill and Marlow and me still at your elbow, and no crown, no banner, no roof — which, near as I can tell, is exactly what you started this whole business with, except now nobody's confused about what you actually are. You spent years trying to be somebody's Citizen and then trying to be somebody's Successor, and you lost both. Try being an Exile properly for once. See how that one fits."
 
 Daz snorted, finally setting the cord down whole. "He's not wrong. I've watched three regimes come through this pass in my lifetime, and the ones who lasted weren't the ones who kept trying to get back what got taken. They built somewhere the last war hadn't already decided the shape of." She nodded toward the door, the dark defile beyond it, the whole unclaimed weight of the Hinterland past it. "There's more world out there than the two valleys you two used to fight over as girls. Might be time you noticed that, now that she's made it so plain you're not welcome back."
 
