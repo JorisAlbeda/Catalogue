@@ -2,7 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 
-import { chat, chatJSON } from "./llm.js"
+import { chatJSON } from "./llm.js"
 import { search } from "./search.js"
 
 export const CATEGORIES = [
@@ -25,6 +25,18 @@ const DOCUMENTS_DIR = "./documents"
 const CODEX_DIR = "./codex"
 const MANIFEST_PATH = path.join(CODEX_DIR, "manifest.json")
 const ENTRY_CONTEXT_CHUNKS = 8
+// An entity is "important" (gets longer description/history) once it's been
+// found explicitly named in at least this many source documents.
+const IMPORTANT_SOURCE_THRESHOLD = 3
+// Locations are populated first so every other category can link to a real,
+// already-written location entry rather than a name that doesn't exist yet.
+const PROCESS_ORDER: Category[] = [
+  "locations",
+  "buildings",
+  "characters",
+  "events",
+  "relics",
+]
 
 export function walk(dir: string): string[] {
   const files: string[] = []
@@ -104,28 +116,92 @@ async function buildContext(entity: CatalogueEntity): Promise<string> {
     .join("\n\n")
 }
 
-function entryPrompt(entity: CatalogueEntity, context: string): string {
+interface EntityEntryContent {
+  description: string
+  history: string
+  location: string
+}
+
+function entryPrompt(
+  entity: CatalogueEntity,
+  context: string,
+  candidateLocations: string[],
+  important: boolean,
+): string {
   const kind = entity.category.slice(0, -1)
-  return `Write a concise codex entry for the ${kind} "${entity.name}", using only the source text below.
-Format it as markdown: a level-1 heading with the name, followed by a few short paragraphs covering what is known about it.
+  const length = important ? "about six sentences" : "about three sentences"
+  const locationKind = entity.category === "locations" ? "region" : "location"
+  const locationRule =
+    candidateLocations.length > 0
+      ? `Choose exactly one name from this list, copied verbatim: ${candidateLocations.join(", ")}. If none of them clearly apply, use "Unknown".`
+      : `No locations have been catalogued yet, so use "Unknown".`
+
+  return `Write a codex entry for the ${kind} "${entity.name}", using only the source text below.
 Do not invent details that aren't supported by the text.
+
+Respond with ONLY a JSON object in this exact shape, with no extra commentary:
+{"description": string, "history": string, "location": string}
+
+- "description": ${length} describing what "${entity.name}" is.
+- "history": ${length} covering its history, or how it came to be, as described in the text.
+- "location": the ${locationKind} most associated with "${entity.name}". ${locationRule}
 
 SOURCE TEXT:
 ${context}`
+}
+
+function normalizeLocation(raw: string, candidateLocations: string[]): string {
+  const match = candidateLocations.find(
+    (name) => name.toLowerCase() === raw.trim().toLowerCase(),
+  )
+  return match ?? "Unknown"
+}
+
+function formatEntry(name: string, content: EntityEntryContent): string {
+  return `# ${name}
+
+## Description
+${content.description}
+
+## History
+${content.history}
+
+## Location
+${content.location}
+`
 }
 
 export async function populateCodex(
   entities: CatalogueEntity[],
   codexDir: string = CODEX_DIR,
 ): Promise<void> {
-  for (const [i, entity] of entities.entries()) {
+  const locationNames = entities
+    .filter((e) => e.category === "locations")
+    .map((e) => e.name)
+
+  const ordered = [...entities].sort(
+    (a, b) =>
+      PROCESS_ORDER.indexOf(a.category) - PROCESS_ORDER.indexOf(b.category),
+  )
+
+  for (const [i, entity] of ordered.entries()) {
     console.log(
-      `[phase 2] writing ${i + 1}/${entities.length}: ${entity.category}/${entity.slug}`,
+      `[phase 2] writing ${i + 1}/${ordered.length}: ${entity.category}/${entity.slug}`,
     )
     const context = await buildContext(entity)
-    const content = await chat(entryPrompt(entity, context))
+    const important = entity.sources.length >= IMPORTANT_SOURCE_THRESHOLD
+    const candidateLocations = locationNames.filter(
+      (name) => name !== entity.name,
+    )
+    const raw = await chatJSON<EntityEntryContent>(
+      entryPrompt(entity, context, candidateLocations, important),
+    )
+    const content: EntityEntryContent = {
+      ...raw,
+      location: normalizeLocation(raw.location, candidateLocations),
+    }
     const filePath = path.join(codexDir, entity.category, `${entity.slug}.md`)
-    fs.writeFileSync(filePath, content.trim() + "\n")
+    fs.writeFileSync(filePath, formatEntry(entity.name, content))
   }
 }
 
