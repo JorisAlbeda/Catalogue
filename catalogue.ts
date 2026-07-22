@@ -154,10 +154,42 @@ Respond with ONLY a JSON object in this exact shape, with no extra commentary:
 Every input name must appear in exactly one group, either as the canonical name or in its aliases list.`
 }
 
+function escapeRegExp(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+// Names like "Perrin" / "Perrin Ashe" are common in this material (a
+// character introduced casually, then given their full name later) and
+// don't need semantic judgement to catch — a whole-word substring check is
+// cheap and exact where the LLM reconciliation pass below (one call asked to
+// group an entire category's worth of names at once) is probabilistic and,
+// in practice, misses obvious cases. This runs first so it also shrinks the
+// list the model has to reason about. It deliberately does NOT catch
+// non-lexical aliases (e.g. "Sticky Fire" / "Verdflayme orb") — those still
+// rely on the LLM pass.
+function mergeNameSubstrings(entities: CatalogueEntity[]): CatalogueEntity[] {
+  const byLength = [...entities].sort((a, b) => b.name.length - a.name.length)
+  const merged: CatalogueEntity[] = []
+
+  for (const entity of byLength) {
+    const target = merged.find((m) =>
+      new RegExp(`\\b${escapeRegExp(entity.name)}\\b`, "i").test(m.name),
+    )
+    if (target) {
+      target.sources = [...new Set([...target.sources, ...entity.sources])]
+    } else {
+      merged.push({ ...entity, sources: [...entity.sources] })
+    }
+  }
+
+  return merged
+}
+
 async function reconcileCategory(
   category: Category,
-  entities: CatalogueEntity[],
+  entitiesIn: CatalogueEntity[],
 ): Promise<CatalogueEntity[]> {
+  const entities = mergeNameSubstrings(entitiesIn)
   if (entities.length < 2) return entities
 
   const listing = await Promise.all(
@@ -203,6 +235,55 @@ async function reconcileCategory(
   return merged
 }
 
+// "buildings" and "locations" overlap conceptually (a temple is both a
+// constructed structure and a place), so the same entity can legitimately
+// get extracted into both category buckets across documents.
+// reconcileCategory only ever compares entities within one category, so a
+// same-named entry in two categories is never even considered for merging
+// there — this catches that case with a plain case-insensitive name match.
+// Ties prefer "locations": every entity's own "location" field is chosen
+// from the locations list only, so a same-named "buildings" entry is
+// otherwise invisible to the rest of the codex either way.
+const CATEGORY_MERGE_PRIORITY: Category[] = [
+  "locations",
+  "buildings",
+  "characters",
+  "events",
+  "relics",
+]
+
+function mergeCrossCategoryDuplicates(
+  entities: CatalogueEntity[],
+): CatalogueEntity[] {
+  const byLowerName = new Map<string, CatalogueEntity[]>()
+  for (const entity of entities) {
+    const key = entity.name.toLowerCase()
+    const group = byLowerName.get(key) ?? []
+    group.push(entity)
+    byLowerName.set(key, group)
+  }
+
+  const drop = new Set<CatalogueEntity>()
+  for (const group of byLowerName.values()) {
+    if (group.length < 2) continue
+    group.sort(
+      (a, b) =>
+        CATEGORY_MERGE_PRIORITY.indexOf(a.category) -
+        CATEGORY_MERGE_PRIORITY.indexOf(b.category),
+    )
+    const [canonical, ...rest] = group
+    for (const dup of rest) {
+      canonical.sources = [...new Set([...canonical.sources, ...dup.sources])]
+      drop.add(dup)
+      console.log(
+        `[phase 1.5] merging cross-category duplicate ${dup.category}/${dup.slug} -> ${canonical.category}/${canonical.slug}`,
+      )
+    }
+  }
+
+  return entities.filter((e) => !drop.has(e))
+}
+
 export async function reconcileCatalogue(
   entities: CatalogueEntity[],
 ): Promise<CatalogueEntity[]> {
@@ -214,7 +295,7 @@ export async function reconcileCatalogue(
     )
     result.push(...(await reconcileCategory(category, inCategory)))
   }
-  return result
+  return mergeCrossCategoryDuplicates(result)
 }
 
 async function buildContext(entity: CatalogueEntity): Promise<string> {
