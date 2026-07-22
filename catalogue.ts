@@ -285,15 +285,23 @@ function normalizeLocation(
 }
 
 // Ollama's JSON mode guarantees syntactically valid JSON, not that the model
-// actually included every requested key — so a "well-formed" response can
-// still come back with fields missing. Default them instead of crashing.
+// actually included every requested key with the requested type — a
+// "well-formed" response can still have a field missing, or e.g. an array of
+// sentences instead of a string. Coerce whatever comes back to text.
+function asText(value: unknown): string {
+  if (typeof value === "string") return value.trim()
+  if (Array.isArray(value)) return value.map(asText).filter(Boolean).join(" ")
+  if (value == null) return ""
+  return String(value).trim()
+}
+
 function normalizeEntryContent(
   raw: Partial<EntityEntryContent> | null | undefined,
 ): EntityEntryContent {
   return {
-    description: raw?.description?.trim() || "",
-    history: raw?.history?.trim() || "",
-    location: raw?.location ?? "",
+    description: asText(raw?.description),
+    history: asText(raw?.history),
+    location: asText(raw?.location),
   }
 }
 
