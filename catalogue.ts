@@ -125,6 +125,90 @@ export async function extractCatalogue(
   return [...entities.values()]
 }
 
+interface MergeGroup {
+  canonical: string
+  aliases: string[]
+}
+
+function reconciliationPrompt(
+  category: Category,
+  listing: string[],
+): string {
+  return `Below is a list of ${category} extracted independently from multiple documents describing a fantasy campaign setting. Some entries may refer to the exact same entity under different names, nicknames, or aliases (for example "Ring" / "The Ring" / "Signet Ring", "Perrin" / "Perrin Ashe", or a relic named once by its object type and once by its epithet). Each entry includes a short snippet of source text for context.
+
+${listing.join("\n")}
+
+Group entries that refer to the same real entity together. For each group, choose the most complete and specific name as canonical (e.g. prefer "Perrin Ashe" over "Perrin"). Do not group entries together just because they are similar, related, or appear near each other in the story — only group them if they are the same entity.
+
+Respond with ONLY a JSON object in this exact shape, with no extra commentary:
+{"groups": [{"canonical": string, "aliases": string[]}]}
+
+Every input name must appear in exactly one group, either as the canonical name or in its aliases list.`
+}
+
+async function reconcileCategory(
+  category: Category,
+  entities: CatalogueEntity[],
+): Promise<CatalogueEntity[]> {
+  if (entities.length < 2) return entities
+
+  const listing = await Promise.all(
+    entities.map(async (entity) => {
+      const [top] = await search(entity.name, 1)
+      const snippet = top ? top.content.slice(0, 200).replace(/\s+/g, " ") : ""
+      return `- "${entity.name}": ${snippet}`
+    }),
+  )
+
+  const { groups } = await chatJSON<{ groups: MergeGroup[] }>(
+    reconciliationPrompt(category, listing),
+  )
+
+  const byName = new Map(entities.map((e) => [e.name, e]))
+  const merged: CatalogueEntity[] = []
+  const consumed = new Set<string>()
+
+  for (const group of groups ?? []) {
+    const members = [group.canonical, ...(group.aliases ?? [])]
+      .map((name) => byName.get(name))
+      .filter((e): e is CatalogueEntity => Boolean(e))
+    if (members.length === 0) continue
+    for (const member of members) consumed.add(member.name)
+
+    const canonicalName = byName.has(group.canonical)
+      ? group.canonical
+      : members[0].name
+    merged.push({
+      name: canonicalName,
+      slug: slugify(canonicalName),
+      category,
+      sources: [...new Set(members.flatMap((m) => m.sources))],
+    })
+  }
+
+  // Safety net: keep anything the model didn't place in a group rather than
+  // silently dropping it.
+  for (const entity of entities) {
+    if (!consumed.has(entity.name)) merged.push(entity)
+  }
+
+  return merged
+}
+
+export async function reconcileCatalogue(
+  entities: CatalogueEntity[],
+): Promise<CatalogueEntity[]> {
+  const result: CatalogueEntity[] = []
+  for (const category of CATEGORIES) {
+    const inCategory = entities.filter((e) => e.category === category)
+    console.log(
+      `[phase 1.5] reconciling ${inCategory.length} ${category} for duplicates`,
+    )
+    result.push(...(await reconcileCategory(category, inCategory)))
+  }
+  return result
+}
+
 async function buildContext(entity: CatalogueEntity): Promise<string> {
   const matches = await search(entity.name, ENTRY_CONTEXT_CHUNKS)
   if (matches.length === 0) {
@@ -235,7 +319,12 @@ async function main() {
     fs.mkdirSync(path.join(CODEX_DIR, category), { recursive: true })
   }
 
-  const entities = await extractCatalogue(files)
+  const rawEntities = await extractCatalogue(files)
+  console.log(`Extracted ${rawEntities.length} raw entities`)
+
+  // Phase 1.5: merge remaining cross-document duplicates the model didn't
+  // catch during extraction
+  const entities = await reconcileCatalogue(rawEntities)
   fs.writeFileSync(MANIFEST_PATH, JSON.stringify(entities, null, 2))
   console.log(`Catalogued ${entities.length} entities -> ${MANIFEST_PATH}`)
 
