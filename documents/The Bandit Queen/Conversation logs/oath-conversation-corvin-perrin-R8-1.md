@@ -1,0 +1,17 @@
+# Converse — Corvin & Perrin (Round 8, #1)
+
+**Setting:** The mill at Fertile Valley, after dark. Bettina Marsh's lamp still burns behind the shutters, but Corvin doesn't knock there — he finds Perrin outside, sitting on the same crate he'd been kneeling by when Colm Rooke found him, the key already back on its nail.
+
+**Corvin:** *(stops a few feet off, doesn't sit yet)* "I read what you sent. I could've sent Colm back with an answer of my own and called it settled — that's what I've done with every unpaid thing this whole war. I didn't want to, not this time." *(quieter, the ring turned once between two fingers)* "You didn't have to go looking for that letter. Not for me. I think you know that already, or you wouldn't have written it the way you did."
+
+**Perrin:** He shifts over on the crate without being asked, leaving the room rather than saying so outright, and doesn't look away while Corvin's still deciding whether to take it. "Didn't do it for you. Did it because I was tired of checking a nail every visit and never asking why." *(a beat — his eyes go to the ring instead of finishing where he meant to)* "Plain answer's this: I don't know what I'll be doing with what men I've got left, once the Chancellor's finished deciding this for the rest of us. Never planned that far past holding what's mine." *(quieter)* "Ask me again once that ring's stopped moving. Might be I'll have a better answer by then. Might be I'll have one for that too."
+
+**Corvin:** *(sits, closer than the space really needed)* "It was my grandmother's. Resized twice, because neither jeweler wanted to ask why a dead woman's ring kept needing to fit someone new." *(a short, dry breath, almost a laugh)* "I didn't come here to ask what you'll do once the Chancellor's decided this for both of us, Ashe. I already know what I'm doing with what's left of tonight, whatever gets decided tomorrow — sitting here, not leaving before you finish the part you didn't." *(doesn't close the last of the distance himself, but doesn't look away either)* "So finish it."
+
+**Perrin:** *(doesn't reach for the ring, doesn't look away either — just says it)* "Wasn't finishing a sentence, Varn. Was working out whether I meant it before I said it in front of you." *(the trailing-off look turns into a held one)* "I meant it. Whatever's left of me once tomorrow's decided, I'd rather it still be sitting here across from you than back at some mill checking a key nobody needs checked anymore."
+
+**Corvin:** *(closes the last of the distance himself this time — a hand over Perrin's, not the ring hand)* "Then that's answered plainer than anything either of us managed about a key or a valley." *(something almost like a smile, gone as quick as it came)* "I don't do this well, Ashe — saying a thing plain instead of making someone dig for it. But I'm not leaving it sitting unpaid like everything else I've let go this whole war." *(quiet)* "Whatever tomorrow decides, I'd rather it decide it with you exactly where you are."
+
+**Perrin:** He doesn't pull his hand back, and doesn't fill the quiet that follows with anything more than needs saying. "Then stay. Nobody's asking you to leave before the lamp goes out." *(a ghost of something easier than either of them's worn all war, there and gone)* "We'll find out what tomorrow wants from us when it gets here."
+
+The lamp behind the shutters burned down and went out on its own before either of them moved to leave. Neither one mentioned the ring again that night, though it stayed still a good while longer than it had all evening.

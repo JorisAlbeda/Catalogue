@@ -1,0 +1,19 @@
+{
+  "name": "rag",
+  "type": "module",
+  "scripts": {
+    "catalogue": "tsx catalogue.ts",
+    "setup": "tsx setup.ts",
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.1",
+    "sqlite-vec": "^0.1.9"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

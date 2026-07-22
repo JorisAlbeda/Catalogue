@@ -1,0 +1,25 @@
+# Current Goal
+
+I want to expand this application to read all documents in the documents folder and create a catalogue of important elements of the world. The expected output is a new codex folder with a structure as follows:
+
+- buildings
+- characters
+- events
+- locations
+- relics
+
+The app should populate the folders with one file per entity it finds in the documents.
+
+This should have two phases:
+
+- First, get the LLM to compile a list of all of these things, and set up the folder structure.
+- Then, populate the folders, one at a time.
+
+## Structure
+
+Each file should consist of the following:
+
+- Title
+- Description (~3 sentences, or ~6 sentences for important entries that occur often in the documents)
+- History (~3 sentences, or ~6 sentences for important entries that occur often in the documents)
+- Location (the name of a location in the locations folder, or, for a location, its region)
