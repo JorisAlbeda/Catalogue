@@ -33,6 +33,6 @@ On the Sorcerer's daughter Lilianne's 18th birthday, he vanished from the realms
 Chancellor Lilianne proved herself against Corvin Varn, Perrin Ashe and Sorrel Wick, whom she exiled after uncovering her planned coup against the Woodland Empire. In the struggle, she used the Firetalker's power of the Verdflayme once more, burning many enemies alive. Additionally, she found the Bandit Crown, making this the first time in history that bandits allied themselves with the Empire, bowing before her as the Bandit Queen.
 The war ended with a truce, in which Perrin Ashe and Corvin Varn founded the country of Ashvale. Lilianne swore never to bury the flame that had killed so many, to break the cycle.
 
-## Year 408 of the Old Oak: The Darkest Flame
+## Year 410 of the Old Oak: The Darkest Flame
 
-The buried fire became a thing of legends, and whispers spoke of its power. It became known as The Darkest Flame.
+The current year. The buried fire has become a thing of legends, and is now known known as The Darkest Flame. Whispers speak of its power....
