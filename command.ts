@@ -89,6 +89,15 @@ function findReferenceDocuments(instruction: string): string[] {
 // regardless of what heading the model produced. Trailing whitespace is
 // trimmed per line since the model sometimes adds stray trailing spaces
 // that would otherwise show up as pure diff noise on every touched line.
+//
+// The source context fed into the prompt is retrieved by similarity search
+// and can include raw excerpts naming *other* entities — observed in
+// practice to make the model, especially on a broad instruction like "give
+// every character a Status", treat those excerpts as more entities to
+// process rather than background material, and echo whole extra "# Name"
+// entries into the response. Truncating at the next top-level heading
+// guarantees only the first (the entity actually being edited) survives,
+// regardless of how well the prompt's instructions were followed.
 function sanitizeEntry(
   name: string,
   originalHeading: string,
@@ -103,7 +112,14 @@ function sanitizeEntry(
     )
     return null
   }
-  const body = lines.slice(headingIdx + 1)
+  const rest = lines.slice(headingIdx + 1)
+  const nextHeadingIdx = rest.findIndex((l) => l.startsWith("# "))
+  const body = nextHeadingIdx === -1 ? rest : rest.slice(0, nextHeadingIdx)
+  if (nextHeadingIdx !== -1) {
+    console.warn(
+      `[command] response for "${name}" contained more than one top-level heading — kept only the first, discarded the rest`,
+    )
+  }
   return [originalHeading, ...body].join("\n").trim()
 }
 
@@ -122,18 +138,27 @@ function commandPrompt(
 
 ${currentContent}
 
-Here is source material for grounding:
+Here is source material for grounding. It may mention other people, places,
+or things besides "${entity.name}" — that's normal background, not a list of
+more entries to write. Only ever use it to inform the ONE entry for
+"${entity.name}" below; ignore everything in it that isn't about
+"${entity.name}":
 ${sourceContext}
 ${referenceBlock ? `\n${referenceBlock}\n` : ""}
-Instruction: ${instruction}
+Instruction (this is being applied to one codex entry at a time by a script
+that already loops over every entity in scope — even if the instruction
+says "every" or "all", you are only ever editing this one entry, "${entity.name}"): ${instruction}
 
-Apply the instruction to the entry above. Preserve every existing section,
-including the exact top-level "# " title line, unless the instruction
-specifically changes its content. If the instruction requires information
-not covered by an existing section, add a new "## SectionName" heading
-after the existing ones. Do not invent details not supported by the source
-material or reference document. Respond with ONLY the full updated entry in
-markdown — no commentary before or after it.`
+Apply the instruction to the entry for "${entity.name}" above. Preserve
+every existing section, including the exact top-level "# " title line,
+unless the instruction specifically changes its content. If the instruction
+requires information not covered by an existing section, add a new
+"## SectionName" heading after the existing ones. Do not invent details not
+supported by the source material or reference document, and do not copy
+raw excerpts from the source material verbatim. Respond with ONLY the full
+updated entry for "${entity.name}" in markdown, containing exactly one
+top-level "# " heading — never include a second entity, even if one
+appears in the source material above — and no commentary before or after it.`
 }
 
 export async function runCommand(scope: Scope, instruction: string): Promise<void> {
