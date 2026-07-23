@@ -896,5 +896,11 @@
     "slug": "darkest-flame",
     "category": "relics",
     "sources": []
+  },
+  {
+    "name": "Ledger Of The Unseen Path",
+    "slug": "ledger-of-the-unseen-path",
+    "category": "relics",
+    "sources": []
   }
 ]
