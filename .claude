@@ -1,6 +1,25 @@
-# Current Goal
+# The Codex
 
-I want to expand this application to read all documents in the documents folder and create a catalogue of important elements of the world. The expected output is a new codex folder with a structure as follows:
+This application functions as an archive, a catalogue of important elements of a fictional world.
+
+It has the following main features:
+
+- Catalogue entries from a given set of documents to create a new codex
+- Update the codex based on new documents
+- Answer questions about the codex
+
+The codex files are used by the following applications:
+
+- **Codex**: this application maintains the files.
+- **Backlog Saga**:
+  - This application reads the files and uses them to ground the LLM to be aware of the world.
+  - It also adds new entries to the codex.
+  - In the future, it may also allow the user to browse through the codex like a wiki.
+- **Oath Simulator**: This setup (now in Claude Cowork, maybe a separate application in the future) uses the files to ground the bot players, and also adds new entries or updates existing ones based on how the game develops.
+
+## Folders
+
+A codex folder is structured as follows:
 
 - buildings
 - characters
@@ -8,16 +27,18 @@ I want to expand this application to read all documents in the documents folder 
 - locations
 - relics
 
-The app should populate the folders with one file per entity it finds in the documents.
+The folders contain one file per world entity.
 
-This should have two phases:
+## Cataloguing
+
+Cataloguing is done in two phases:
 
 - First, get the LLM to compile a list of all of these things, and set up the folder structure.
 - Then, populate the folders, one at a time.
 
 ## Structure
 
-Each file should consist of the following:
+Each file consists of the following:
 
 - Title
 - Description (~3 sentences, or ~6 sentences for important entries that occur often in the documents)
