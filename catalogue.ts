@@ -2,6 +2,7 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 
+import { indexFile } from "./db.js"
 import { chatJSON } from "./llm.js"
 import { search, searchBySource } from "./search.js"
 
@@ -96,8 +97,15 @@ ${text}`
 
 export async function extractCatalogue(
   files: string[],
+  seed: CatalogueEntity[] = [],
 ): Promise<CatalogueEntity[]> {
   const entities = new Map<string, CatalogueEntity>()
+  for (const entity of seed) {
+    entities.set(`${entity.category}:${entity.slug}`, {
+      ...entity,
+      sources: [...entity.sources],
+    })
+  }
 
   for (const [i, file] of files.entries()) {
     console.log(`[phase 1] extracting ${i + 1}/${files.length}: ${file}`)
@@ -209,15 +217,29 @@ async function reconcileCategory(
   const consumed = new Set<string>()
 
   for (const group of groups ?? []) {
-    const members = [group.canonical, ...(group.aliases ?? [])]
+    const requestedNames = [group.canonical, ...(group.aliases ?? [])]
+    const members = requestedNames
       .map((name) => byName.get(name))
       .filter((e): e is CatalogueEntity => Boolean(e))
-    if (members.length === 0) continue
+    if (members.length === 0) {
+      // The model's canonical/alias strings didn't match any input name
+      // verbatim (paraphrase, typo, invented name) — nothing to merge, but
+      // logged so a silently-ignored group is visible rather than invisible.
+      console.warn(
+        `[phase 1.5] ${category}: reconciliation group [${requestedNames.join(", ")}] matched no known name, ignoring`,
+      )
+      continue
+    }
     for (const member of members) consumed.add(member.name)
 
     const canonicalName = byName.has(group.canonical)
       ? group.canonical
       : members[0].name
+    if (members.length > 1) {
+      console.log(
+        `[phase 1.5] ${category}: merged [${members.map((m) => m.name).join(", ")}] -> "${canonicalName}"`,
+      )
+    }
     merged.push({
       name: canonicalName,
       slug: slugify(canonicalName),
@@ -286,10 +308,15 @@ function mergeCrossCategoryDuplicates(
 
 export async function reconcileCatalogue(
   entities: CatalogueEntity[],
+  categoriesToReconcile: readonly Category[] = CATEGORIES,
 ): Promise<CatalogueEntity[]> {
   const result: CatalogueEntity[] = []
   for (const category of CATEGORIES) {
     const inCategory = entities.filter((e) => e.category === category)
+    if (!categoriesToReconcile.includes(category)) {
+      result.push(...inCategory)
+      continue
+    }
     console.log(
       `[phase 1.5] reconciling ${inCategory.length} ${category} for duplicates`,
     )
@@ -413,8 +440,9 @@ export async function populateCodex(
   entities: CatalogueEntity[],
   codexDir: string = CODEX_DIR,
   skipExisting = false,
+  allEntities: CatalogueEntity[] = entities,
 ): Promise<void> {
-  const locationNames = entities
+  const locationNames = allEntities
     .filter((e) => e.category === "locations")
     .map((e) => e.name)
 
@@ -461,7 +489,103 @@ export async function populateCodex(
   }
 }
 
+// Indexes a second folder of documents and folds any entities found in it
+// into the existing manifest: new entities get their own codex entry, and
+// existing entities that gained a new source get their entry fully
+// regenerated from their complete (old + new) context. Categories untouched
+// by this batch are left alone, including on disk.
+export async function updateCodex(newDocsDir: string): Promise<void> {
+  if (!fs.existsSync(MANIFEST_PATH)) {
+    throw new Error(
+      `No ${MANIFEST_PATH} found — run "npm run catalogue" first.`,
+    )
+  }
+  const existingEntities: CatalogueEntity[] = JSON.parse(
+    fs.readFileSync(MANIFEST_PATH, "utf8"),
+  )
+  const originalByKey = new Map(
+    existingEntities.map((e) => [`${e.category}:${e.slug}`, e]),
+  )
+
+  const newFiles = walk(newDocsDir)
+  console.log(`Found ${newFiles.length} document(s) in ${newDocsDir}`)
+  for (const [i, file] of newFiles.entries()) {
+    console.log(`[update] indexing ${i + 1}/${newFiles.length}: ${file}`)
+    await indexFile(file)
+  }
+
+  const merged = await extractCatalogue(newFiles, existingEntities)
+
+  // An entity is "changed" if it's under a brand-new key (a new entity, or
+  // the canonical result of a reconciliation merge/rename) or if it kept its
+  // key but picked up a new source document.
+  const isChanged = (e: CatalogueEntity): boolean => {
+    const original = originalByKey.get(`${e.category}:${e.slug}`)
+    return !original || original.sources.length !== e.sources.length
+  }
+
+  // Reconciliation only needs to run where a genuinely new *name* entered a
+  // category — that's the only thing it dedupes against. An existing entity
+  // merely picking up another source doesn't introduce anything new to
+  // reconcile, and re-running the (probabilistic) LLM reconciliation pass
+  // over a category needlessly risks reshuffling canonical names for
+  // entities this update never touched. A single hallucinated extraction
+  // (the small local model occasionally echoes an unrelated known name back)
+  // should cost at most one spurious entity rewrite, not a whole category's
+  // worth of renames.
+  const isNewKey = (e: CatalogueEntity): boolean =>
+    !originalByKey.has(`${e.category}:${e.slug}`)
+
+  const touchedCategories = CATEGORIES.filter((category) =>
+    merged.some((e) => e.category === category && isNewKey(e)),
+  )
+  console.log(
+    `[update] touched categories: ${touchedCategories.join(", ") || "(none)"}`,
+  )
+
+  const reconciled = await reconcileCatalogue(merged, touchedCategories)
+
+  // Reconciliation can rename or merge an existing entity into a new
+  // canonical key, orphaning its old codex file — clean those up.
+  const finalKeys = new Set(reconciled.map((e) => `${e.category}:${e.slug}`))
+  for (const [oldKey, oldEntity] of originalByKey) {
+    if (finalKeys.has(oldKey)) continue
+    const stalePath = path.join(
+      CODEX_DIR,
+      oldEntity.category,
+      `${oldEntity.slug}.md`,
+    )
+    if (fs.existsSync(stalePath)) {
+      fs.unlinkSync(stalePath)
+      console.log(
+        `[update] removed stale ${oldEntity.category}/${oldEntity.slug} (merged/renamed)`,
+      )
+    }
+  }
+
+  const dirty = reconciled.filter(isChanged)
+  console.log(`[update] ${dirty.length} entities need (re)writing`)
+
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(reconciled, null, 2))
+  for (const category of CATEGORIES) {
+    fs.mkdirSync(path.join(CODEX_DIR, category), { recursive: true })
+  }
+
+  await populateCodex(dirty, CODEX_DIR, false, reconciled)
+  console.log("Update done.")
+}
+
 async function main() {
+  const updateIdx = process.argv.indexOf("--update")
+  if (updateIdx !== -1) {
+    const newDocsDir = process.argv[updateIdx + 1]
+    if (!newDocsDir) {
+      throw new Error("Usage: npm run catalogue:update -- <folder>")
+    }
+    await updateCodex(newDocsDir)
+    return
+  }
+
   const shouldContinue = process.argv.includes("--continue")
 
   let entities: CatalogueEntity[]

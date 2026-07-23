@@ -54,6 +54,21 @@ npm run catalogue:continue
 
 This reuses the existing `codex/manifest.json` instead of re-running discovery, and skips any `codex/<category>/<slug>.md` that's already been written.
 
+### Update the codex with a new folder of documents
+
+```
+npm run catalogue:update -- <path-to-new-folder>
+```
+
+Once a codex already exists, use this to integrate a second (or third, ...) folder of documents without rebuilding from scratch. It:
+
+1. Indexes every file under `<path-to-new-folder>` into `rag.db`, same as `npm run setup` does for `documents/`.
+2. Extracts entities from those files, reusing an existing entity's exact name where the text matches one already in `codex/manifest.json`.
+3. Re-runs duplicate/alias reconciliation, but only for categories that actually received a new or changed entity this run — untouched categories are left alone.
+4. Regenerates the codex entry for every new entity and every existing entity that gained a new source document, using its complete (old + new) context. Entities untouched by this batch keep their existing `.md` file as-is. Any file orphaned by a reconciliation rename/merge is removed.
+
+Requires `codex/manifest.json` to already exist — run `npm run catalogue` first if this is the first batch of documents.
+
 ## Project structure
 
 | File | Purpose |
