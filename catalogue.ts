@@ -540,7 +540,11 @@ export function syncManifest(): SyncResult {
 
   const renames = new Map<string, string>()
   try {
-    const diff = execSync("git diff --name-status -M -- codex/", {
+    // `HEAD` here matters: a plain `git diff` only shows unstaged changes,
+    // so a rename already staged (e.g. via `git mv`, or an IDE that stages
+    // automatically) would be invisible to it. Diffing against HEAD catches
+    // a rename regardless of whether it's staged yet.
+    const diff = execSync("git diff --name-status -M HEAD -- codex/", {
       encoding: "utf8",
     })
     for (const line of diff.split("\n")) {
