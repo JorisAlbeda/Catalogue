@@ -5,6 +5,8 @@
     "catalogue": "tsx catalogue.ts",
     "catalogue:continue": "tsx catalogue.ts --continue",
     "catalogue:update": "tsx catalogue.ts --update",
+    "catalogue:sync": "tsx catalogue.ts --sync",
+    "codex:command": "tsx command.ts",
     "setup": "tsx setup.ts",
     "start": "tsx index.ts"
   },

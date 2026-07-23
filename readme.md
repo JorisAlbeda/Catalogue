@@ -69,6 +69,34 @@ Once a codex already exists, use this to integrate a second (or third, ...) fold
 
 Requires `codex/manifest.json` to already exist — run `npm run catalogue` first if this is the first batch of documents.
 
+### Syncing the manifest after manual edits
+
+`codex/` is git-tracked, and it's fine to hand-edit, rename, or delete files directly in it. `codex/manifest.json` won't know about those changes on its own, though, so run:
+
+```
+npm run catalogue:sync
+```
+
+to reconcile it: files that vanished are dropped from the manifest, new files get a fresh entry, and — since `codex/` is tracked in git — a renamed file is detected via git's own rename detection and keeps its source history under the new name instead of starting over. Both `catalogue:update` and `codex:command` (below) run this automatically before doing anything else, so you don't normally need to run it by hand except after a batch of manual edits you want reflected right away.
+
+### Giving the LLM a free-form command over the codex
+
+```
+npm run codex:command -- --category <characters|events|buildings|locations|relics|all> "<instruction>"
+```
+
+For bulk edits that don't fit the fixed extract/populate pipeline — adding a field, applying a global style change, anything expressible as an instruction. Examples:
+
+```
+npm run codex:command -- --category characters "Give every character a Status section noting whether they are alive, deceased, or unknown, based on the source material."
+npm run codex:command -- --category events "Give each event a Year section, based on documents/timeline.md."
+npm run codex:command -- --category all "Convert every entry to British spelling."
+```
+
+For each targeted entry, it feeds the model the entry's current content, the same source context `catalogue` uses, and — if the instruction mentions a document by name (like "timeline" above) — that document's full content, then asks it to apply the instruction. Existing sections are preserved unless the instruction changes them; a new instruction-driven fact (like a Status or Year) is appended as a new section rather than replacing anything.
+
+Because `codex/` is git-tracked, this refuses to run if `codex/` already has uncommitted changes (commit or stash first), so the run's own diff is always clean: `git diff -- codex/` shows exactly what it changed, and `git checkout -- codex/` undoes it if a result looks wrong.
+
 ## Project structure
 
 | File | Purpose |
@@ -81,7 +109,8 @@ Requires `codex/manifest.json` to already exist — run `npm run catalogue` firs
 | `ask.ts` | Question answering over search results |
 | `setup.ts` | Entry point: indexes `documents/` into `rag.db` |
 | `index.ts` | Entry point: asks a question via `ask.ts` |
-| `catalogue.ts` | Entry point: builds the entity codex from `documents/` |
+| `catalogue.ts` | Entry point: builds/updates the entity codex from `documents/`, and manifest sync |
+| `command.ts` | Entry point: free-form LLM commands over existing codex entries |
 | `documents/` | Source material (not generated) |
-| `codex/` | Generated entity catalogue (not committed) |
+| `codex/` | Entity catalogue — LLM-generated and hand-edited, tracked in git |
 | `rag.db` | Generated vector index (not committed) |

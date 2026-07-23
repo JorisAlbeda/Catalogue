@@ -1,0 +1,900 @@
+[
+  {
+    "name": "Ruined hall",
+    "slug": "ruined-hall",
+    "category": "buildings",
+    "sources": [
+      "documents\\The Bandit Queen\\Legacy\\legacy-black.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md"
+    ]
+  },
+  {
+    "name": "The mill",
+    "slug": "the-mill",
+    "category": "buildings",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "The village",
+    "slug": "the-village",
+    "category": "buildings",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Fenn",
+    "slug": "fenn",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Brack",
+    "slug": "brack",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Bettina Marsh",
+    "slug": "bettina-marsh",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Daz",
+    "slug": "daz",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Hesper",
+    "slug": "hesper",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
+    ]
+  },
+  {
+    "name": "Ressa Kindler",
+    "slug": "ressa-kindler",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
+    ]
+  },
+  {
+    "name": "Old Marta",
+    "slug": "old-marta",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Naiad",
+    "slug": "naiad",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-purple.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Sammy",
+    "slug": "sammy",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-purple.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Ossa",
+    "slug": "ossa",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Fen Quill",
+    "slug": "fen-quill",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Marlow Ash",
+    "slug": "marlow-ash",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Dennet Fife",
+    "slug": "dennet-fife",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Pied Piper",
+    "slug": "pied-piper",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Corvin Varn",
+    "slug": "corvin-varn",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Lilianne of the Woods",
+    "slug": "lilianne-of-the-woods",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Fionn",
+    "slug": "fionn",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "The Narrator",
+    "slug": "the-narrator",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Colm Rooke",
+    "slug": "colm-rooke",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md"
+    ]
+  },
+  {
+    "name": "Sorrel Wick",
+    "slug": "sorrel-wick",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Perrin Ashe",
+    "slug": "perrin-ashe",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Wren Sable",
+    "slug": "wren-sable",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-corvin-R9-1.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Halvard Cray",
+    "slug": "halvard-cray",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-black.md"
+    ]
+  },
+  {
+    "name": "Isolde Varn",
+    "slug": "isolde-varn",
+    "category": "characters",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-corvin-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Trade at Tinker's Fair",
+    "slug": "trade-at-tinker-s-fair",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Trade at Magician's Code",
+    "slug": "trade-at-magician-s-code",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "War's end",
+    "slug": "war-s-end",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Meeting at Ruined Temple",
+    "slug": "meeting-at-ruined-temple",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Halvard Cray's war",
+    "slug": "halvard-cray-s-war",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "The banner being taken back",
+    "slug": "the-banner-being-taken-back",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
+    ]
+  },
+  {
+    "name": "The Chancellor's day",
+    "slug": "the-chancellor-s-day",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
+    ]
+  },
+  {
+    "name": "The banishment",
+    "slug": "the-banishment",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "The fever",
+    "slug": "the-fever",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "The letter to Corvin",
+    "slug": "the-letter-to-corvin",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "The Oath",
+    "slug": "the-oath",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "The meeting between Lilianne and Perrin",
+    "slug": "the-meeting-between-lilianne-and-perrin",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "The death of Isolde Varn",
+    "slug": "the-death-of-isolde-varn",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "The letter from Halvard",
+    "slug": "the-letter-from-halvard",
+    "category": "events",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Narrow Pass",
+    "slug": "narrow-pass",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Ruined Temple",
+    "slug": "ruined-temple",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md"
+    ]
+  },
+  {
+    "name": "Ashvale",
+    "slug": "ashvale",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-corvin-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Cradle",
+    "slug": "cradle",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md"
+    ]
+  },
+  {
+    "name": "Boiling Lake",
+    "slug": "boiling-lake",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Hinterland",
+    "slug": "hinterland",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md"
+    ]
+  },
+  {
+    "name": "Fertile Valley",
+    "slug": "fertile-valley",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Tinker's Fair",
+    "slug": "tinker-s-fair",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Magician's Code",
+    "slug": "magician-s-code",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Mine",
+    "slug": "mine",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Deep Woods",
+    "slug": "deep-woods",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-purple.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Charming Valley",
+    "slug": "charming-valley",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Drowned City",
+    "slug": "drowned-city",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R0-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md",
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "Buried Giant",
+    "slug": "buried-giant",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Reliquary",
+    "slug": "reliquary",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-lilianne-R6-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Corvin's camp",
+    "slug": "corvin-s-camp",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Chancellor's gate",
+    "slug": "chancellor-s-gate",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-purple.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Cradled Woods and Valleys",
+    "slug": "cradled-woods-and-valleys",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Sorrel's camp",
+    "slug": "sorrel-s-camp",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "The forest",
+    "slug": "the-forest",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "The memorial",
+    "slug": "the-memorial",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md"
+    ]
+  },
+  {
+    "name": "The Chancellor's hall",
+    "slug": "the-chancellor-s-hall",
+    "category": "locations",
+    "sources": [
+      "documents\\The Bandit Queen\\oath-chronicle.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-purple.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Scrap of grey-green cloth",
+    "slug": "scrap-of-grey-green-cloth",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md"
+    ]
+  },
+  {
+    "name": "Isolde's",
+    "slug": "isolde-s",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Signet ring",
+    "slug": "signet-ring",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
+    ]
+  },
+  {
+    "name": "Neither Reaching Nor Kneeling",
+    "slug": "neither-reaching-nor-kneeling",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Chancellor's Seal",
+    "slug": "chancellor-s-seal",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "The People's Favor",
+    "slug": "the-people-s-favor",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
+    ]
+  },
+  {
+    "name": "Halvard Cray's old iron key",
+    "slug": "halvard-cray-s-old-iron-key",
+    "category": "relics",
+    "sources": [
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-black.md",
+      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-companies-R3-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
+      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
+      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
+      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
+    ]
+  },
+  {
+    "name": "Sorcerer Of The Woods",
+    "slug": "sorcerer-of-the-woods",
+    "category": "characters",
+    "sources": []
+  },
+  {
+    "name": "Firestorm At Buried Giant",
+    "slug": "firestorm-at-buried-giant",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "Perrin S Rally",
+    "slug": "perrin-s-rally",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "The Burial Of The Darkest Flame",
+    "slug": "the-burial-of-the-darkest-flame",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "The Truce Of Ashvale",
+    "slug": "the-truce-of-ashvale",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "Wicks Exile",
+    "slug": "wicks-exile",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "Darkest Flame",
+    "slug": "darkest-flame",
+    "category": "relics",
+    "sources": []
+  }
+]

@@ -1,3 +1,4 @@
+import { execSync } from "node:child_process"
 import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
@@ -325,7 +326,7 @@ export async function reconcileCatalogue(
   return mergeCrossCategoryDuplicates(result)
 }
 
-async function buildContext(entity: CatalogueEntity): Promise<string> {
+export async function buildContext(entity: CatalogueEntity): Promise<string> {
   const matches: Array<{ source: string; content: string }> = await search(
     entity.name,
     ENTRY_CONTEXT_CHUNKS,
@@ -489,17 +490,139 @@ export async function populateCodex(
   }
 }
 
+function titleCaseFromSlug(slug: string): string {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => capitalizeFirst(word))
+    .join(" ")
+}
+
+export interface SyncResult {
+  added: number
+  removed: number
+  renamed: number
+}
+
+// Reconciles manifest.json against whatever's actually on disk under
+// codex/<category>/*.md — needed because the manifest is the only place
+// `sources` history lives, and both updateCodex and command.ts trust it to
+// know what exists. Files can drift out of sync with it via direct manual
+// edits (rename/delete) in codex/. When codex/ is git-tracked, git's own
+// rename detection (`git diff --name-status -M`) lets a rename carry its
+// `sources` forward instead of resetting to empty, same as a plain add.
+export function syncManifest(): SyncResult {
+  const existing: CatalogueEntity[] = fs.existsSync(MANIFEST_PATH)
+    ? JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"))
+    : []
+  const byKey = new Map(existing.map((e) => [`${e.category}:${e.slug}`, e]))
+
+  const onDisk = new Set<string>()
+  for (const category of CATEGORIES) {
+    const dir = path.join(CODEX_DIR, category)
+    if (!fs.existsSync(dir)) continue
+    for (const file of fs.readdirSync(dir)) {
+      if (!file.endsWith(".md")) continue
+      onDisk.add(`${category}:${file.slice(0, -3)}`)
+    }
+  }
+
+  const keyFromPath = (p: string): string | null => {
+    const match = p
+      .replace(/\\/g, "/")
+      .match(/codex\/([^/]+)\/([^/]+)\.md$/)
+    if (!match) return null
+    const [, category, slug] = match
+    return (CATEGORIES as readonly string[]).includes(category)
+      ? `${category}:${slug}`
+      : null
+  }
+
+  const renames = new Map<string, string>()
+  try {
+    const diff = execSync("git diff --name-status -M -- codex/", {
+      encoding: "utf8",
+    })
+    for (const line of diff.split("\n")) {
+      const match = line.match(/^R\d*\t(.+?)\t(.+)$/)
+      if (!match) continue
+      const oldKey = keyFromPath(match[1])
+      const newKey = keyFromPath(match[2])
+      if (oldKey && newKey) renames.set(oldKey, newKey)
+    }
+  } catch {
+    // git not available, or codex/ isn't tracked yet — no rename info,
+    // everything just falls through to plain add/remove below.
+  }
+
+  let added = 0
+  let removed = 0
+  let renamed = 0
+  const result: CatalogueEntity[] = []
+  const handledDiskKeys = new Set<string>()
+
+  for (const [oldKey, entity] of byKey) {
+    if (onDisk.has(oldKey)) {
+      result.push(entity)
+      handledDiskKeys.add(oldKey)
+      continue
+    }
+    const newKey = renames.get(oldKey)
+    if (newKey && onDisk.has(newKey) && !handledDiskKeys.has(newKey)) {
+      const [category, slug] = newKey.split(":") as [Category, string]
+      result.push({ ...entity, category, slug, name: titleCaseFromSlug(slug) })
+      handledDiskKeys.add(newKey)
+      renamed++
+      console.log(`[sync] renamed ${oldKey} -> ${newKey}, sources preserved`)
+      continue
+    }
+    removed++
+    console.log(`[sync] removed ${oldKey} (file no longer exists)`)
+  }
+
+  for (const key of onDisk) {
+    if (handledDiskKeys.has(key)) continue
+    const [category, slug] = key.split(":") as [Category, string]
+    result.push({ name: titleCaseFromSlug(slug), slug, category, sources: [] })
+    added++
+    console.log(`[sync] added ${key} (new file, no source history)`)
+  }
+
+  fs.writeFileSync(MANIFEST_PATH, JSON.stringify(result, null, 2))
+  console.log(`[sync] ${added} added, ${removed} removed, ${renamed} renamed`)
+  return { added, removed, renamed }
+}
+
+// Refuses to proceed if codex/ has uncommitted changes, so a command's
+// resulting diff is cleanly attributable to that run alone (and a bad run
+// is a plain `git checkout -- codex/` away from being undone).
+export function assertCleanCodexTree(): void {
+  let status: string
+  try {
+    status = execSync("git status --porcelain -- codex/", { encoding: "utf8" })
+  } catch {
+    return // git not available — nothing to check against
+  }
+  if (status.trim().length > 0) {
+    throw new Error(
+      "codex/ has uncommitted changes — commit or stash them first so this run's changes are cleanly diffable.",
+    )
+  }
+}
+
 // Indexes a second folder of documents and folds any entities found in it
 // into the existing manifest: new entities get their own codex entry, and
 // existing entities that gained a new source get their entry fully
 // regenerated from their complete (old + new) context. Categories untouched
 // by this batch are left alone, including on disk.
 export async function updateCodex(newDocsDir: string): Promise<void> {
+  assertCleanCodexTree()
   if (!fs.existsSync(MANIFEST_PATH)) {
     throw new Error(
       `No ${MANIFEST_PATH} found — run "npm run catalogue" first.`,
     )
   }
+  syncManifest()
   const existingEntities: CatalogueEntity[] = JSON.parse(
     fs.readFileSync(MANIFEST_PATH, "utf8"),
   )
@@ -576,6 +699,11 @@ export async function updateCodex(newDocsDir: string): Promise<void> {
 }
 
 async function main() {
+  if (process.argv.includes("--sync")) {
+    syncManifest()
+    return
+  }
+
   const updateIdx = process.argv.indexOf("--update")
   if (updateIdx !== -1) {
     const newDocsDir = process.argv[updateIdx + 1]
