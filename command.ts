@@ -84,10 +84,18 @@ function findReferenceDocuments(instruction: string): string[] {
   })
 }
 
-function sanitizeEntry(name: string, raw: string): string | null {
+// Renaming an entity is catalogue:sync's job (via a manual file rename), not
+// a bulk command's — so the original title line is always kept verbatim,
+// regardless of what heading the model produced. Trailing whitespace is
+// trimmed per line since the model sometimes adds stray trailing spaces
+// that would otherwise show up as pure diff noise on every touched line.
+function sanitizeEntry(
+  name: string,
+  originalHeading: string,
+  raw: string,
+): string | null {
   const trimmed = raw.trim()
-  if (trimmed.startsWith("# ")) return trimmed
-  const lines = trimmed.split("\n")
+  const lines = trimmed.split("\n").map((l) => l.replace(/[ \t]+$/, ""))
   const headingIdx = lines.findIndex((l) => l.startsWith("# "))
   if (headingIdx === -1) {
     console.warn(
@@ -95,7 +103,8 @@ function sanitizeEntry(name: string, raw: string): string | null {
     )
     return null
   }
-  return lines.slice(headingIdx).join("\n").trim()
+  const body = lines.slice(headingIdx + 1)
+  return [originalHeading, ...body].join("\n").trim()
 }
 
 function commandPrompt(
@@ -118,13 +127,13 @@ ${sourceContext}
 ${referenceBlock ? `\n${referenceBlock}\n` : ""}
 Instruction: ${instruction}
 
-Apply the instruction to the entry above. Preserve every existing section
-unless the instruction specifically changes its content. If the instruction
-requires information not covered by an existing section, add a new
-"## SectionName" heading after the existing ones. Do not invent details not
-supported by the source material or reference document. Respond with ONLY
-the full updated entry in markdown, starting with "# ${entity.name}" — no
-commentary before or after it.`
+Apply the instruction to the entry above. Preserve every existing section,
+including the exact top-level "# " title line, unless the instruction
+specifically changes its content. If the instruction requires information
+not covered by an existing section, add a new "## SectionName" heading
+after the existing ones. Do not invent details not supported by the source
+material or reference document. Respond with ONLY the full updated entry in
+markdown — no commentary before or after it.`
 }
 
 export async function runCommand(scope: Scope, instruction: string): Promise<void> {
@@ -162,11 +171,12 @@ export async function runCommand(scope: Scope, instruction: string): Promise<voi
     )
     try {
       const currentContent = fs.readFileSync(filePath, "utf8")
+      const originalHeading = currentContent.split("\n")[0]
       const sourceContext = await buildContext(entity)
       const raw = await chat(
         commandPrompt(entity, currentContent, sourceContext, referenceDocs, instruction),
       )
-      const updated = sanitizeEntry(entity.name, raw)
+      const updated = sanitizeEntry(entity.name, originalHeading, raw)
       if (!updated) continue
       fs.writeFileSync(filePath, updated + "\n")
       succeeded++
