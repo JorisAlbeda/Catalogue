@@ -12,6 +12,8 @@ During the Sorcerer's War, the Sorcerer of the Woods convinced the Fire Talkers 
 
 Sixty years later, the Old Oak granted the Sticky Fire to Lilianne at the start of the war. She used it to slaughter Sorrel Wick's forces at the Firestorm at Buried Giant. After the war, Lilianne chose to bury Sticky Fire, ending its cycle of destruction. The relic's final resting place became a memorial, symbolizing peace over violence. Its legacy endured in stories and superstitions, even as its physical form was lost, and it became known as the Darkest Flame.
 
+It is said that the palace in the Deep Woods still holds the Darkest Secret, a tome that tells of how to conjure the Darkest Flame itself...
+
 ## Location
 
 Drowned City

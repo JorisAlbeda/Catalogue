@@ -35,4 +35,5 @@ The war ended with a truce, in which Perrin Ashe and Corvin Varn founded the cou
 
 ## Year 410 of the Old Oak: The Darkest Flame
 
-The current year. The buried fire has become a thing of legends, and is now known known as The Darkest Flame. Whispers speak of its power....
+The current year. The buried fire has become a thing of legends, and is now known known as The Darkest Flame. Whispers speak of its power. It is said that the palace in the Deep Woods still holds the Darkest Secret, a tome that tells of how to conjure the Darkest Flame itself. There are those in the lands bordering the Woodland Empire, not the least in Ashvale, who believe the Flame is a symbol for humanity's spark, and does not belong buried under the ground. Others simply seek to claim its power for themselves.
+It seems war is once again brewing in the Woodland Empire....

@@ -6,7 +6,7 @@ The Truce of Ashvale marked the end of a prolonged conflict, resulting in the tr
 
 ## History
 
-After the war, the Empire chose to hold onto certain regions while surrendering others under the truce, leading to the formation of Ashvale. Sorrel Wick, without banners or a crown, sought an audience with Corvin Varn and Lilianne at the Ruined Temple to discuss terms. This meeting solidified the truce's foundation, allowing for the reorganization of power and the beginning of a new era of relative peace.
+After the war, the Empire chose to hold onto certain regions while surrendering others under the truce, leading to the formation of Ashvale. Sorrel Wick, without banners or a crown, sought an audience with Corvin Varn and Perrin Ashe at the Ruined Temple to discuss terms. This meeting solidified the truce's foundation, allowing for the reorganization of power and the beginning of a new era of relative peace.
 
 ## Location
 
