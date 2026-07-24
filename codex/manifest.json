@@ -681,5 +681,23 @@
     "slug": "lilith-woodborne",
     "category": "characters",
     "sources": []
+  },
+  {
+    "name": "The Accord Hall",
+    "slug": "the-accord-hall",
+    "category": "buildings",
+    "sources": []
+  },
+  {
+    "name": "The Embered Offering",
+    "slug": "the-embered-offering",
+    "category": "events",
+    "sources": []
+  },
+  {
+    "name": "The Burden Of The Solemn Step",
+    "slug": "the-burden-of-the-solemn-step",
+    "category": "relics",
+    "sources": []
   }
 ]
