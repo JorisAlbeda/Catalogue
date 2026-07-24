@@ -8,3 +8,6 @@ Dennet Fife was recruited during Round 6 of a Search in Charming Valley. The Rui
 
 ## Location
 Charming Valley
+
+## Status
+Deceased

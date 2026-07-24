@@ -1,10 +1,16 @@
 # Sorrel Wick
 
 ## Description
-Sorrel Wick was an Exile, once a member of the citizenry stripped of her status by Corvin's authority. She was known for her ink-stained fingers, a trait she never fully cleaned, and for carrying a grey-green cloth scrap pinned inside her coat. As an Oathkeeper, she wielded significant influence, using her word and banner's weight to assert power. Her exile left her purse fuller than her former office's pay, granting her independence from any seat. She remained a figure of quiet resolve, her actions shaping the political landscape despite her status as an outcast. Her legacy endured in places like Charming Valley, where her influence lingered in customs and unspoken habits.
+Sorrel Wick was an Exile, once a member of the citizenry stripped of her status by Corvin's authority. She was known for her ink-stained fingers, a trait she never fully cleaned, and for carrying a grey-green cloth scrap pinned inside her coat. As an Oathkeeper, she wielded significant influence, using her word and banner's weight to assert power. Her exile left her purse fuller than her former office's pay, granting her resources to rally followers. Her legacy is one of defiance against imperial authority and a symbol of resistance.
 
 ## History
-Sorrel Wick was exiled from Corvin's hall after being stripped of her citizenry status, her purse filled with more than her office ever paid. She won the war and game as Oathkeeper, securing 5 Relics and both Banners at Buried Giant, where she defeated Sorrel's forces with Sticky Fire. Her victory shook her, leading her to bury a relic near a memorial and swear a new Oath for the people's well-being. Later, she faced Lilianne's forces at Buried Giant, losing her claim to the crown and being banished to Narrow Pass. Sticky Fire ensured her defeat, leaving no warband to survive. Her actions reshaped the political landscape, leaving a legacy that outlasted her direct influence.
+Sorrel Wick rose to prominence as an Oathkeeper, leveraging her cunning and charisma to challenge Corvin's rule. She orchestrated rebellions, rallied armies under banners of rebellion, and confronted the Chancellor directly. Her actions culminated in her exile to Narrow Pass, where she was banished. Though her physical presence faded, her influence lingered, inspiring movements against the empire.
 
 ## Location
-Narrow Pass
+Narrow Pass, a remote and desolate region, became her final resting place. The exact location remains obscured, shrouded in mystery and legend.
+
+## Status
+Deceased
+
+## Legacy
+A century after her exile, her name endures in whispers and stories. In Charming Valley, her legacy is etched into the fabric of resistance, with no one able to pinpoint her exact resting place. Her tale is one of rebellion, resilience, and the enduring power of defiance against tyranny.

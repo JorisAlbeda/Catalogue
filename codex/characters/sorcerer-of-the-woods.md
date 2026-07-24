@@ -11,3 +11,7 @@ The Sorcerer overthrew Halvard Cray with the help of Wren Sable and swore the Oa
 ## Location
 
 Unknown
+
+## Status
+
+Unknown

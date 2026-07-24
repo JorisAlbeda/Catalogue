@@ -8,3 +8,6 @@ Marlow Ash was drawn to Charming Valley through a Search action, where he played
 
 ## Location
 Charming Valley
+
+## Status
+Deceased

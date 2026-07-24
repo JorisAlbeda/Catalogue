@@ -8,3 +8,6 @@ Fenn first appeared at Fertile Valley's side early in the conflict, already alig
 
 ## Location
 Fertile Valley
+
+## Status
+Deceased

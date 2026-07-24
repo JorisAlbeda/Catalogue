@@ -8,3 +8,6 @@ Perrin Ashe was an exile who rebuilt a company from the ruins of war, never allo
 
 ## Location
 Fertile Valley
+
+## Status
+Deceased

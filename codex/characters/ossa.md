@@ -8,6 +8,10 @@ Ossa was a blunt and unyielding adviser to Sorrel Wick, known for her rude hones
 
 Ossa was recruited as Sorrel’s starting adviser at Charming Valley, where she quickly became a trusted, if abrasive, confidante. She argued against reckless spending, urging Sorrel to bank resources rather than invest in new recruits. Her strategies influenced key decisions, such as handling secrets at Magician’s Code and maintaining strength near Charming Valley. Ossa was present during tense discussions with the Chancellor, resisting calls to escalate conflicts unnecessarily. She remained loyal to Sorrel even as the political landscape shifted, including Sorrel’s exile and the Chancellor’s demands. Her role in the White faction’s survival was critical, balancing pragmatism with a refusal to compromise her principles.
 
+## Status
+
+Deceased
+
 ## Location
 
 Charming Valley

@@ -8,3 +8,6 @@ Daz was the first Bandit Chief to pledge allegiance to the Empire, yet she remai
 
 ## Location
 Narrow Pass
+
+## Status
+Deceased

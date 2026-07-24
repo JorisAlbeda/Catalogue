@@ -8,3 +8,6 @@ Hesper was raised and lost in the same visit that cost Sorrel her place among th
 
 ## Location
 Hinterland
+
+## Status
+Deceased

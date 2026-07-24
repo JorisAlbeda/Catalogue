@@ -8,3 +8,6 @@ Lilianne led the Rangers out of the Deep Woods with the Old Oak's blessing, trad
 
 ## Location
 Deep Woods
+
+## Status
+Deceased

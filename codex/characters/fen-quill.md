@@ -8,3 +8,6 @@ Fen Quill was first linked to Sorrel when she recruited him to aid in making Cha
 
 ## Location
 Unknown
+
+## Status
+Deceased

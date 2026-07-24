@@ -8,3 +8,6 @@ Naiad was taken as Lilianne's adviser in the Deep Woods, where she first appeare
 
 ## Location
 Deep Woods
+
+## Status
+Deceased

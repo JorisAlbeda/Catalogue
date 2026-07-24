@@ -8,3 +8,6 @@ Corvin Varn inherited a sealed ledger box marked SANCTUARY and the Truthwatcher'
 
 ## Location
 Fertile Valley
+
+## Status
+Deceased

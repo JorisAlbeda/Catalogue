@@ -8,3 +8,6 @@ Bettina Marsh was present at Fertile Valley from the war's beginning, arriving b
 
 ## Location
 Fertile Valley
+
+## Status
+Deceased
