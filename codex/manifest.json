@@ -251,16 +251,6 @@
     ]
   },
   {
-    "name": "The Narrator",
-    "slug": "the-narrator",
-    "category": "characters",
-    "sources": [
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
     "name": "Colm Rooke",
     "slug": "colm-rooke",
     "category": "characters",
@@ -349,46 +339,6 @@
     ]
   },
   {
-    "name": "Trade at Tinker's Fair",
-    "slug": "trade-at-tinker-s-fair",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "Trade at Magician's Code",
-    "slug": "trade-at-magician-s-code",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "War's end",
-    "slug": "war-s-end",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-corvin-R2-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-perrin-corvin-R8-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
     "name": "Meeting at Ruined Temple",
     "slug": "meeting-at-ruined-temple",
     "category": "events",
@@ -401,60 +351,11 @@
     ]
   },
   {
-    "name": "Halvard Cray's war",
-    "slug": "halvard-cray-s-war",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "The banner being taken back",
-    "slug": "the-banner-being-taken-back",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
-    ]
-  },
-  {
-    "name": "The Chancellor's day",
-    "slug": "the-chancellor-s-day",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
-    ]
-  },
-  {
-    "name": "The banishment",
-    "slug": "the-banishment",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
     "name": "The fever",
     "slug": "the-fever",
     "category": "events",
     "sources": [
       "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
-    "name": "The letter to Corvin",
-    "slug": "the-letter-to-corvin",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
-    "name": "The Oath",
-    "slug": "the-oath",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\oath-chronicle.md"
     ]
   },
   {
@@ -468,14 +369,6 @@
   {
     "name": "The death of Isolde Varn",
     "slug": "the-death-of-isolde-varn",
-    "category": "events",
-    "sources": [
-      "documents\\The Bandit Queen\\oath-chronicle.md"
-    ]
-  },
-  {
-    "name": "The letter from Halvard",
-    "slug": "the-letter-from-halvard",
     "category": "events",
     "sources": [
       "documents\\The Bandit Queen\\oath-chronicle.md"
@@ -563,20 +456,6 @@
     ]
   },
   {
-    "name": "Hinterland",
-    "slug": "hinterland",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md"
-    ]
-  },
-  {
     "name": "Fertile Valley",
     "slug": "fertile-valley",
     "category": "locations",
@@ -609,33 +488,6 @@
       "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
       "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md",
       "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
-    "name": "Magician's Code",
-    "slug": "magician-s-code",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
-    "name": "Mine",
-    "slug": "mine",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-blue.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
     ]
   },
   {
@@ -700,28 +552,6 @@
     ]
   },
   {
-    "name": "Reliquary",
-    "slug": "reliquary",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-perrin-lilianne-R6-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-daz-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "Corvin's camp",
-    "slug": "corvin-s-camp",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-blue.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
     "name": "Chancellor's gate",
     "slug": "chancellor-s-gate",
     "category": "locations",
@@ -739,57 +569,6 @@
     ]
   },
   {
-    "name": "Sorrel's camp",
-    "slug": "sorrel-s-camp",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "The forest",
-    "slug": "the-forest",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\oath-chronicle.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-lilianne-R9-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-corvin-perrin-R8-1.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-lilianne-naiad-R9-2.md",
-      "documents\\The Bandit Queen\\Conversation logs\\oath-conversation-sorrel-lilianne-R5-1.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "The memorial",
-    "slug": "the-memorial",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\oath-chronicle.md"
-    ]
-  },
-  {
-    "name": "The Chancellor's hall",
-    "slug": "the-chancellor-s-hall",
-    "category": "locations",
-    "sources": [
-      "documents\\The Bandit Queen\\oath-chronicle.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-purple.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "Scrap of grey-green cloth",
-    "slug": "scrap-of-grey-green-cloth",
-    "category": "relics",
-    "sources": [
-      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md"
-    ]
-  },
-  {
     "name": "Isolde's",
     "slug": "isolde-s",
     "category": "relics",
@@ -798,17 +577,6 @@
       "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
       "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
       "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "Signet ring",
-    "slug": "signet-ring",
-    "category": "relics",
-    "sources": [
-      "documents\\The Bandit Queen\\Legacy\\legacy-blue.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-blue.md"
     ]
   },
   {
@@ -827,14 +595,6 @@
     "sources": [
       "documents\\The Bandit Queen\\Messengers\\oath-messengers-black.md",
       "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md"
-    ]
-  },
-  {
-    "name": "The People's Favor",
-    "slug": "the-people-s-favor",
-    "category": "relics",
-    "sources": [
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
     ]
   },
   {
@@ -900,6 +660,24 @@
   {
     "name": "Ledger Of The Unseen Path",
     "slug": "ledger-of-the-unseen-path",
+    "category": "relics",
+    "sources": []
+  },
+  {
+    "name": "Ashvale Mine",
+    "slug": "ashvale-mine",
+    "category": "locations",
+    "sources": []
+  },
+  {
+    "name": "Great Spire",
+    "slug": "great-spire",
+    "category": "locations",
+    "sources": []
+  },
+  {
+    "name": "Varn Signet Ring",
+    "slug": "varn-signet-ring",
     "category": "relics",
     "sources": []
   }
