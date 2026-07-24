@@ -680,5 +680,17 @@
     "slug": "varn-signet-ring",
     "category": "relics",
     "sources": []
+  },
+  {
+    "name": "Ivan",
+    "slug": "ivan",
+    "category": "characters",
+    "sources": []
+  },
+  {
+    "name": "Lilith Woodborne",
+    "slug": "lilith-woodborne",
+    "category": "characters",
+    "sources": []
   }
 ]
