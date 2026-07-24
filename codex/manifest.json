@@ -175,17 +175,6 @@
     ]
   },
   {
-    "name": "Marlow Ash",
-    "slug": "marlow-ash",
-    "category": "characters",
-    "sources": [
-      "documents\\The Bandit Queen\\Cast logs\\oath-cast-white.md",
-      "documents\\The Bandit Queen\\Legacy\\legacy-white.md",
-      "documents\\The Bandit Queen\\Messengers\\oath-messengers-white.md",
-      "documents\\The Bandit Queen\\Narrative logs\\oath-narrative-log-white.md"
-    ]
-  },
-  {
     "name": "Dennet Fife",
     "slug": "dennet-fife",
     "category": "characters",
