@@ -12,6 +12,14 @@ For roughly a century, the memorial stone at the Spire's foot carried a single i
 
 In the 412th year of the Old Oak, at Iona Ashe's asking and with Marren Wick's consent, the stone was recut. Ressa Kindler of the Fire Talkers had died the better part of a century before, but her own account of the burial survived her, recovered from the Spire's own hearth as a book of old songs and carried forward by Iona rather than composed fresh for the occasion. The new inscription reads: _"The flame was taken from the Fire Talkers and buried without asking. They never called it mercy. Neither should you."_ No sculptor's or petitioner's name was added beneath it — the words are credited to Ressa Kindler directly, a century after her death, by her own clan's surviving text. It is the first inscription at the Spire, in living memory, naming the people the flame was actually taken from.
 
+Word this past season confirms what Iona Ashe's own descendants had
+feared for years, watching from an Ashvale tavern hearth three hundred
+miles off: the tower has come down entirely, the recut stone with it,
+leaving nothing standing over the Darkest Flame's own grave but Buried
+Giant's usual bandit watch — the same bandits who've held the ground,
+on and off, for years, without any of them ever needing to know or care
+what exactly they were sitting on.
+
 ## Location
 
 Buried Giant

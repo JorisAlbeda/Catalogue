@@ -12,10 +12,12 @@ By the third month of the war, ruling the Great Slum in the Hinterland (the Mars
 
 By the fourth month of the war, with Marren Wick close to an outright win, Rowan pulled every warband she could gather out of the Marshes and marched south for Plains itself, aiming to strip the one thing standing unguarded between Marren and her throne: the Circlet of Command.
 
+Rowan came home from that war with no throne, no relic, and no victory to her name, and spent the rest of her life telling anyone who asked that the empty hands were the real answer. She kept a gull-grey scarf, mended twice, in the Warden's own strongbox rather than wear or give it away — Tamsin Reed's, left behind at Plains. She died an old woman, long enough ago that her great-granddaughter Teagan Sedge now only knows her through family story.
+
 ## Location
 
 Drowned City
 
 ## Status
 
-Active
+Deceased

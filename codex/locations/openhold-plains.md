@@ -16,6 +16,12 @@ Rowan Voss brought Ashvale's own column against that keep in the fourth month of
 
 In the years after the war's end, the ground took the name Openhold — Marren Wick's own choosing, and the first name this place ever had that wasn't just a placeholder for whoever happened to be standing on it. The town growing up around the keep, and the wider country answering to it, are known together now as the Openlands: no throne, no Empire, just the ledger Marren swore to keep open, and whoever's willing to be judged by the same one she is.
 
+Eighty-some years on, the Openlands have never grown past this one ground — every Truthwatcher since Marren, including the cautious Bevan Stroud, left the two stretches past Salt Flats exactly as unclaimed as she did. What's grown instead is Openhold itself, inward: the same walls Marren raised, packed tighter every generation since, until Tinker's Fair's stalls stand close enough to touch and no family's business stays its own for long. A place that's prospered for two generations without ever needing to expand also hasn't had anywhere new to walk in that whole time.
+
 ## Location
 
 Cradle
+
+## Garrison
+
+The Wallwatch — Plains' own standing gate-guard, led by Dunstan Reeve, whose own father and grandfather held the same post before him. Small, unhurried, and loyal to whoever sits the Truthwatcher's desk rather than to any one holder of it personally — steady in the same way the rest of Openhold has settled into being steady, for better and worse.
