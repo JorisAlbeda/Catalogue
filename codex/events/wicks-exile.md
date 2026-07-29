@@ -6,7 +6,7 @@ The exile referred to Sorrel Wick's banishment from the Empire, a status imposed
 
 ## History
 
-Sorrel was exiled following her failed attempt to reclaim Buried Giant, where she faced opposition from Lilianne and her forces. The Chancellor's decree branded her an Exile, demanding she leave the Empire and live forgotten. Despite her hardships, she forged a new identity, eventually establishing Ashvale as an independent realm, a legacy that outlived the exile who created it.
+Sorrel was exiled following her failed attempt to reclaim Buried Giant, where she faced opposition from Lilianne and her forces. The Chancellor's decree branded her an Exile, demanding she leave the Empire and live forgotten. She remained with her armies, however, leading to the Firestorm at Buried Giant. Despite her hardships, she forged a new identity, eventually establishing Ashvale as an independent realm, a legacy that outlived the exile who created it.
 
 ## Location
 

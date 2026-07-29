@@ -1,9 +1,11 @@
 # Sorrel Wick
 
 ## Description
-Sorrel Wick was an Exile, once a member of the citizenry stripped of her status by Corvin's authority. She was known for her ink-stained fingers, a trait she never fully cleaned, and for carrying a grey-green cloth scrap pinned inside her coat. As an Oathkeeper, she wielded significant influence, using her word and banner's weight to assert power. Her exile left her purse fuller than her former office's pay, granting her independence from any seat. She remained a figure of quiet resolve, her actions shaping the political landscape despite her status as an outcast. Her legacy endured in places like Charming Valley, where her influence lingered in customs and unspoken habits.
+
+Sorrel Wick was a Truthwatcher, once a member of the citizenry stripped of her status by Lilianne's authority. She was known for her ink-stained fingers, which she never fully cleaned, and for carrying a grey-green cloth scrap pinned inside her coat. As a citizen of the Woodland Empire, she wielded significant influence, using her word and banner's weight to assert power, prior to her exile. Her legacy is one of defiance against imperial authority and a symbol of resistance.
 
 ## History
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Sorrel Wick was exiled from Corvin's hall after being stripped of her citizenry status, her purse filled with more than her office ever paid. She won the war and game as Oathkeeper, securing 5 Relics and both Banners at Buried Giant, where she defeated Sorrel's forces with Sticky Fire. Her victory shook her, leading her to bury a relic near a memorial and swear a new Oath for the people's well-being. Later, she faced Lilianne's forces at Buried Giant, losing her claim to the crown and being banished to Narrow Pass. Sticky Fire ensured her defeat, leaving no warband to survive. Her actions reshaped the political landscape, leaving a legacy that outlasted her direct influence.
 =======
@@ -12,6 +14,16 @@ In her childhood, Sorrel Wick was known as Lilianne's best friend. As an adult, 
 Narrow Pass became her final resting place. The exact location remains obscured, shrouded in mystery and legend.
 Lilianne learned of Sorrel's death from Corvin and Perrin after the truce, but never had it formally entered in the Empire's rolls — closing the ledger meant deciding what Sorrel had been to her, traitor or friend, and she never chose. Every Chancellor since has left the entry exactly as open.
 >>>>>>> Stashed changes
+=======
+
+In her childhood, Sorrel Wick was known as Lilianne's best friend. As an adult, Sorrel inherited the Truthwatcher's desk at Charming Valley from Wren Sable. She relished the position and became known for her sharp eye for ledgers. When the war started, Lilianne consulted her several times on how to defend their homeland. Eventually, however, Sorrel was discovered plotting against the Chancellor, and was exiled from the Woodland Empire. She gathered an army at Buried Giant and attempted to orchestrate a rebellion against the Empire, but these armies were slaughtered in the Firestorm at Buried Giant, the biggest slaughter these lands have known, and was bannished to the Narrow Pass. There, she met and befriended Daz, and laid low at her home until the end of the war. Following the truce of Ashvale, she met with Corvin and Perrin at the Ruined Temple and was given a home of her own in Ashvale.
+Narrow Pass became her final resting place. The exact location remains obscured, shrouded in mystery and legend.
+>>>>>>> fix/codex-command-entity-leakage
 
 ## Location
+
 Narrow Pass
+
+## Status
+
+Deceased

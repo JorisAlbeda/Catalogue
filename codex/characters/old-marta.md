@@ -8,3 +8,6 @@ Old Marta first encountered Corvin at the Mine, where she foretold a future he w
 
 ## Location
 Mine
+
+## Status
+Deceased

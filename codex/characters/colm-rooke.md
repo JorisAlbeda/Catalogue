@@ -8,3 +8,6 @@ Colm was sent ahead by Corvin multiple times to warn Perrin or ask him critical 
 
 ## Location
 Ruined Temple
+
+## Status
+Deceased

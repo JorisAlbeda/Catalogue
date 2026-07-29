@@ -8,3 +8,6 @@ Wren Sable was caught in a conflict where she absorbed a crime meant for Isolde,
 
 ## Location
 Charming Valley
+
+## Status
+Deceased

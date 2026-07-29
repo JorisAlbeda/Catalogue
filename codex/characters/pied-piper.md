@@ -8,3 +8,6 @@ Pied Piper was drawn during a Search in the Cradle discard pile at Charming Vall
 
 ## Location
 Charming Valley
+
+## Status
+Deceased
