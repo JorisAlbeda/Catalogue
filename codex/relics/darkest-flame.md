@@ -12,6 +12,10 @@ During the Sorcerer's War, the Sorcerer of the Woods convinced the Fire Talkers 
 
 Sixty years later, the Old Oak granted the Sticky Fire to Lilianne at the start of the war. She used it to slaughter Sorrel Wick's forces at the Firestorm at Buried Giant. After the war, Lilianne chose to bury Sticky Fire, ending its cycle of destruction. The relic's final resting place became a memorial, symbolizing peace over violence. Its legacy endured in stories and superstitions, even as its physical form was lost, and it became known as the Darkest Flame.
 
+It is said that the palace in the Deep Woods still holds the Darkest Secret, a tome that tells of how to conjure the Darkest Flame itself...
+
+The Chancellor's line kept the tome close rather than leave it at the palace the legends still point to — Lilith Woodborne was carrying it herself at Plains, sealed behind the ring pried from the Great Spire's rubble, until Marren Wick broke her last guards there and took both the ring and the tome for her own. The tome itself was locked inside a plain chest Ivan had kept within arm's reach even at Magician's Code, mistaken then for nothing more than a keepsake box; it took the better part of an afternoon after the ring changed hands to find that chest among the Chancellor's retinue and force it open.
+
 ## Location
 
-Drowned City
+Plains

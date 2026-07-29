@@ -35,4 +35,11 @@ The war ended with a truce, in which Perrin Ashe and Corvin Varn founded the cou
 
 ## Year 410 of the Old Oak: The Darkest Flame
 
-The current year. The buried fire has become a thing of legends, and is now known known as The Darkest Flame. Whispers speak of its power....
+The buried fire was now a thing of legends, known as The Darkest Flame. Whispers spoke of its power. It is said that the palace in the Deep Woods still holds the Darkest Secret, a tome that told of how to conjure the Darkest Flame itself. There were those in the lands bordering the Woodland Empire, not the least in Ashvale, who believed the Flame is a symbol for humanity's spark, and did not belong buried under the ground. Others simply seek to claim its power for themselves.
+Perhaps it was for this reason that Rowan Voss, Warden of Ashvale, chose to invade the Woodland Empire with her armies. Perhaps it was for this reason that Iona Ashe tried to start a rebellion among the Woodland people.
+What is known is that when Lilith, Last Chancellor of the Woodland Empire, rode and successfully defeated these two Ashvale invaders, it was Marren Vick, a simple clerk from the Narrow Pass, became a symbol of change. She stole the secret of the Darkest Flame, united the people in the Plains that would become known as Openhold, and created a new country, a Hold that would stand the test of time and become a new beginning, with Marren as its Truthwatcher.
+
+## Year 492 of the Old Oak: The Open Plains
+
+The current year. While Openhold flourishes as the Hold's capital, the wide Openlands are riddled with bandits, and life is difficult outside of the lush plains.
+The Woodlands have become a quiet, mysterious place, where the forestfolk and beasts dwell who have little interest in the cities built in Openhold. Ashvale, meanwhile, is struggling economically. It seems these two neighbours will have a part to play in the events that will soon unfold in the Openlands...

@@ -6,5 +6,9 @@ Buried Giant was a site of fierce conflict where Sorrel Wick's forces were ultim
 ## History
 Buried Giant emerged as a pivotal battleground during the war between Lilianne and Sorrel Wick. Lilianne led a warband from Deep Woods to attack the site, gathering allies to confront Sorrel's forces. The battle was marked by the use of Sticky Fire, which sealed Sorrel's fate and ended her claim to the crown. After the battle, Sorrel was banished to Narrow Pass, and her remaining forces were annihilated. The site became a place of remembrance, with a memorial built and a relic buried to honor the event. The victory at Buried Giant solidified Lilianne's role as Oathkeeper, marking the end of the war and the beginning of a new era. Its legacy endured through the relics and banners carried by the Empire.
 
+Round 2: Iona Ashe's column campaigned against Chancellor Lilith Woodborne's defenders here and broke them, planting her own warbands on the site for the first time — rule now shared rather than solely the Chancellor's.
+
+Round 3: Lilith answered in kind — turned Iona's own rallied support against her, provoking in-fighting that scattered or killed the warbands Iona had planted here. The site is the Chancellor's alone again.
+
 ## Location
 Unknown

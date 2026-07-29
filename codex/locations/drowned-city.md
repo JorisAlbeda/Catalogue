@@ -6,5 +6,7 @@ Drowned City lay a month's ride south of Ashvale, back across the Narrow Pass in
 ## History
 Drowned City had once been a stronghold of the Empire, its fate sealed by war and neglect. Lilianne of the Woods uncovered its final secret before moving on to Buried Giant, prying loose relics like the Ivory Eye. The city's remnants became a site of quiet intrigue, its history tied to the Empire's downfall. Corvin Varn crossed its threshold for the first time since the truce, standing where his grandmother had died. The Narrow Pass remained a contested route, its bandit past unresolved. Even now, the city's silence hinted at truths yet to be unearthed, its drowned foundations holding echoes of a bygone era.
 
+The ruin filled again for the first time in a generation within a single week: Chancellor Lilith Woodborne camped its Western walltops, Iona Ashe arrived at the Southern wall declaring she'd make Lilith answer for the buried flame, and Rowan Voss, newly elected Warden of Ashvale, stood at the Eastern wall and declared her own ambition to rule more ground than either of them — a claim on the future rather than the ruin itself, at least for now.
+
 ## Location
 Narrow Pass

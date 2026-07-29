@@ -8,3 +8,10 @@ Sammy was recruited at Narrow Path during Round 3, becoming part of Lilianne's r
 
 ## Location
 Narrow Pass
+<<<<<<< Updated upstream
+=======
+
+## Status
+
+Alive, a year past the war's end — carried Lilith Woodborne to Openhold and back to the Deep Woods, docile as ever, older than any throne he's served.
+>>>>>>> Stashed changes
