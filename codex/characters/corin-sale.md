@@ -6,7 +6,7 @@ A fast-talking broker out of the old Tinker's Fair circuit, more comfortable sea
 
 ## History
 
-Placed by Iona Ashe at Plains, Round 3 — planted in Lilith Woodborne's own dooryard on the strength of Bryn Holt's knack for finding room to grow things.
+Placed by Iona Ashe at the Openhold Plains, Round 3 — planted in Lilith Woodborne's own dooryard on the strength of Bryn Holt's knack for finding room to grow things.
 
 ## Location
 

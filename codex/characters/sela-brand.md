@@ -6,7 +6,7 @@ A broker in the loosest sense of the word — deals in salt, secrets, or a frien
 
 ## History
 
-First appeared, Round 0 — taken as Black's own starting adviser (the Welcoming Party card), the first person Teagan Sedge found already working Salt Flats' bandit-held ground when she arrived meaning to reclaim what trade she still could there.
+First appeared, Round 0 — the first person Teagan Sedge found already working Salt Flats' bandit-held ground when she arrived meaning to reclaim what trade she still could there. Stayed on afterward as the site's own broker rather than following Teagan anywhere else — this ground is her trade, not any one ruler of it.
 
 ## Location
 

@@ -10,6 +10,12 @@ times, and counts a debt unsettled the same way the old family stories
 say Iona Ashe always did — a debt eighty years old now, and by his own
 reckoning still not paid.
 
+Dark brown hair, cropped short and practical for work under a mason's
+hood. A young face already weathered past its nineteen years by sun and
+stone-dust, watchful grey eyes that rarely blink first, and a thin pale
+scar through one eyebrow from a chisel that slipped early in his
+apprenticeship.
+
 ## History
 
 Wynn grew up in an Ashvale tavern his own family has kept for
@@ -42,6 +48,15 @@ the tavern's own Yarrow Doss along with him. Arrived Round 0, and
 recruited Yarrow as his adviser there, meaning to hold this ground
 outright rather than watch it from a tavern hearth three hundred miles
 off.
+
+Called the company the Cairn Watch once they'd made camp within sight
+of the fallen tower — half in grim joke, half because nobody could
+think of a better word for what they'd actually come to do. Wynn leads
+it himself; there was no one else he trusted to. It marches under the
+Openlands' own banner, not any of his own family's — most of its hands
+were born in and around Ashvale, same as he was, but the ground they
+took at Buried Giant answers to the Hold, not to the Ashes. Wynn holds
+no ground of his own there; only the office he means to earn does.
 
 ## Location
 

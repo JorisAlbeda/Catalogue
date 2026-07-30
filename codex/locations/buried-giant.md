@@ -12,6 +12,14 @@ Round 2: Iona Ashe's column campaigned against Chancellor Lilith Woodborne's def
 
 Round 3: Lilith answered in kind — turned Iona's own rallied support against her, provoking in-fighting that scattered or killed the warbands Iona had planted here. The site is the Chancellor's alone again.
 
+Generations later, Wynn Ashe — Iona's own descendant — took the ground back from the bandits who'd squatted on it since the Great Spire fell, the first of his line to hold it outright rather than lose it. Truthwatcher Perrine Oswick, answering his own honest account of what he found in the Spire's rubble with an equally honest question of her own, put Openhold's formal backing behind his claim in writing — not a favor owed quietly, but a standing account, checkable if it's ever disputed. Neither of them has said publicly what the Spire's own collapse actually uncovered.
+
+The Cairn Watch marched out of here nearly whole and came back from Openhold Plains as almost nothing — the siege there cost Wynn Ashe all but a handful of the company he'd built up since Round 0. What's left of it stands the watch alone now, the only company he has to his name.
+
 ## Location
 
 Unknown
+
+## Garrison
+
+The Cairn Watch, down to a single warband under Wynn Ashe's own command after the losses at Openhold Plains — the rest of the company he raised out of Ashvale didn't come home from that siege.

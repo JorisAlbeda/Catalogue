@@ -12,9 +12,15 @@ This spring put it to the test. The same bandit banner that's squatted on Salt F
 
 First appeared, Round 0.
 
+Round 1: took Salt Flats back from the bandits holding it, in one committed push — the cost was steep, two of her three warbands, but the ground is hers now, not borrowed. She renamed what was left of her company the Farrow Company before the day was out.
+
+Round 3: took the Openhold Plains outright from Openhold — bribed her way past Openhold Keep's own gate, then broke the Wallwatch in the fight that followed, losing more of her own company than the tower or the flats ever cost her. Second ground under her own banner, the first ever taken from Openhold itself rather than from bandits.
+
+Round 4: lost it all in one afternoon. Wynn Ashe's siege broke the gate she'd held since Round 3, the Farrow Company under Ren Ashby died defending it, and Teagan herself was taken alive once the Darkest Flame ended the fight — the tome she'd spent the season chasing down went with Wynn when he withdrew. She didn't stay a prisoner long: bandits overran the emptied ground two days later, and she slipped free in the confusion, with nothing left to her name but the company at Salt Flats and whatever she can rebuild from it.
+
 ## Location
 
-Salt Flats, Provinces
+Plains, Cradle
 
 ## Status
 

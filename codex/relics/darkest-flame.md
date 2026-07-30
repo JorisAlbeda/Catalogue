@@ -16,6 +16,10 @@ It is said that the palace in the Deep Woods still holds the Darkest Secret, a t
 
 The Chancellor's line kept the tome close rather than leave it at the palace the legends still point to — Lilith Woodborne was carrying it herself at Plains, sealed behind the ring pried from the Great Spire's rubble, until Marren Wick broke her last guards there and took both the ring and the tome for her own. The tome itself was locked inside a plain chest Ivan had kept within arm's reach even at Magician's Code, mistaken then for nothing more than a keepsake box; it took the better part of an afternoon after the ring changed hands to find that chest among the Chancellor's retinue and force it open.
 
+That account concerns the Darkest Secret, the tome — a different object from the Flame itself. The orb Lilianne buried at Buried Giant was never dug up again in the intervening decades, not by the Woodland Empire, not by Iona Ashe's own failed campaign there, and not by any of the bandits who've held the ground since: it stayed buried, exactly where she left it, for the better part of a century. This past season, Wynn Ashe — descended, several generations removed, from Iona's own line, arrived to secure the site — found it in the rubble of the fallen Great Spire while clearing ground he'd just taken from the bandits holding it, and recovered it for himself, paying its own listed cost. He knew it on sight from the family's own page before Yarrow Doss ever named it aloud: this was the thing four generations of his family had stood watch over without ever once seeing it. It now travels with him rather than sitting at any site.
+
+The Flame and the tome, apart for the better part of a century, are back in the same hands. Wynn broke Openhold Keep's own gate with the orb — the first time since Lilianne's own war it's been lit in anger — and carried the tome out of the same siege, taken from Teagan Sedge once the walls finally gave. He's read the first page of it already. What Lilianne buried and Marren Wick refused to open are now both sitting in one man's travelling case, and he hasn't told Perrine Oswick what the second one actually says.
+
 ## Location
 
-Plains
+With Wynn Ashe, currently at Buried Giant
