@@ -18,9 +18,11 @@ Round 3: took the Openhold Plains outright from Openhold — bribed her way past
 
 Round 4: lost it all in one afternoon. Wynn Ashe's siege broke the gate she'd held since Round 3, the Farrow Company under Ren Ashby died defending it, and Teagan herself was taken alive once the Darkest Flame ended the fight — the tome she'd spent the season chasing down went with Wynn when he withdrew. She didn't stay a prisoner long: bandits overran the emptied ground two days later, and she slipped free in the confusion, with nothing left to her name but the company at Salt Flats and whatever she can rebuild from it.
 
+Round 5: walked back to Salt Flats rather than contest the still Bandit-held Openhold Plains. Called in fresh hands to the Farrow Company there instead — the first step of rebuilding from the one ground she still holds outright.
+
 ## Location
 
-Plains, Cradle
+Salt Flats, Provinces
 
 ## Status
 

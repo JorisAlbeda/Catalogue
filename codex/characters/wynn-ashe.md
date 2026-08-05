@@ -58,6 +58,10 @@ were born in and around Ashvale, same as he was, but the ground they
 took at Buried Giant answers to the Hold, not to the Ashes. Wynn holds
 no ground of his own there; only the office he means to earn does.
 
+Perrine rode on Buried Giant itself the month after their confrontation at the Plains, naming her terms to his face rather than sending word ahead: the book, or a fight, that day. Wynn didn't hand it over. He put the Cairn Watch between her and the Spire's own rubble — and only then, watching them stand to it, did the old truth about whose ground this always was land somewhere he couldn't argue it away any longer. It didn't hold. She took the book back with her own hands. She didn't touch his claim on the ground itself, or ask him to answer for anything beyond it, exactly as she'd told him at the Plains she meant to. He's said nothing to anyone since.
+
+He found the healed garden at Great Slums weeks before Tinney Woodborne ever did, though he never told them so. When Tinney found it too and asked him to renounce Openhold outright over it, he refused — but he rode to Perrine that same week anyway, asking her to leave the ground be, and told her plainly, unprompted, that the Darkest Flame at the Keep had been his own hand and not hers. She couldn't give him the garden; the People's Favor sits on it now, and her own account with Tinney had shrunk to a single day. Rather than fight Tinney himself or let Perrine march in blind, he offered the one thing that cost him without breaking either promise: going back to Tinney once more, to ask them himself to put the banner down.
+
 ## Location
 
 Buried Giant

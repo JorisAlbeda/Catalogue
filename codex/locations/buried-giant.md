@@ -16,10 +16,12 @@ Generations later, Wynn Ashe — Iona's own descendant — took the ground back 
 
 The Cairn Watch marched out of here nearly whole and came back from Openhold Plains as almost nothing — the siege there cost Wynn Ashe all but a handful of the company he'd built up since Round 0. What's left of it stands the watch alone now, the only company he has to his name.
 
+Perrine Oswick rode on the site itself not long after, over the book Wynn had carried home from the Keep — her own terms put to him directly, no warning sent ahead. The last of the Cairn Watch stood to her here and broke, and it was only in that standing that the older truth surfaced plainly: the watch had always answered to the Hold, and so, in the end, to her. She took the book and left the rest as it was — Wynn's own claim on the ground untouched, and the Cairn Watch's one remaining warband still standing its post here, hers now in name as much as it always was in fact.
+
 ## Location
 
 Unknown
 
 ## Garrison
 
-The Cairn Watch, down to a single warband under Wynn Ashe's own command after the losses at Openhold Plains — the rest of the company he raised out of Ashvale didn't come home from that siege.
+The Cairn Watch, down to its last warband after the fight with Perrine — Perrine's own, under Wynn Ashe's continuing local command, still stationed here.

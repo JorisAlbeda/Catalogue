@@ -10,10 +10,12 @@ Dunstan's father held the same post before him, and his father's master before t
 
 What was left of the Wallwatch after the Openhold Plains fell — Dunstan and a single surviving warband — has since been built back up to five, new hands raised both at Openhold Keep's own gate and out of Plains itself, under Teagan Sedge's own occupying banner, without a blade drawn to do it. Dunstan didn't ask how Perrine meant to manage that; he just started drilling them the same plain way as always.
 
+Dunstan led the Wallwatch into the ruined garden past Great Slums himself, the way he'd led every hard push since the Plains first fell — plain, first through the gap, nothing showy. He reached the old tree standing at the heart of it and put his spear to it the same way he'd have put it to any line that needed breaking. It killed him where he stood, the instant the wood took the blow, before he could pull the spear back. His second-in-command called the retreat over what was left of him.
+
 ## Location
 
-Plains, Cradle
+Great Slums, Provinces
 
 ## Status
 
-Active
+Deceased — killed by the garden's own tree, Great Slums, Round 8. Command of the Wallwatch currently unassigned.
