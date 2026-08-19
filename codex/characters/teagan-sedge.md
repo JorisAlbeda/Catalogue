@@ -20,6 +20,8 @@ Round 4: lost it all in one afternoon. Wynn Ashe's siege broke the gate she'd he
 
 Round 5: walked back to Salt Flats rather than contest the still Bandit-held Openhold Plains. Called in fresh hands to the Farrow Company there instead — the first step of rebuilding from the one ground she still holds outright.
 
+Post-game: found Wynn Ashe outside a tavern days after the fall of Openhold, still in shock from watching Perrine Oswick die at Great Slums, and sat down across from him without asking. Made him give the account straight, then asked whether he'd light the Darkest Flame again knowing it was the same fire that killed Ren Ashby. He said yes and didn't take it back. She told him plainly what that made him — not a man who'd hold a gate twice, a weapon that fires the same regardless of who's standing across from it next — and left him with no argument against it.
+
 ## Location
 
 Salt Flats, Provinces

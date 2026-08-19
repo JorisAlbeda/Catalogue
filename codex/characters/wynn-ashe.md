@@ -62,6 +62,8 @@ Perrine rode on Buried Giant itself the month after their confrontation at the P
 
 He found the healed garden at Great Slums weeks before Tinney Woodborne ever did, though he never told them so. When Tinney found it too and asked him to renounce Openhold outright over it, he refused — but he rode to Perrine that same week anyway, asking her to leave the ground be, and told her plainly, unprompted, that the Darkest Flame at the Keep had been his own hand and not hers. She couldn't give him the garden; the People's Favor sits on it now, and her own account with Tinney had shrunk to a single day. Rather than fight Tinney himself or let Perrine march in blind, he offered the one thing that cost him without breaking either promise: going back to Tinney once more, to ask them himself to put the banner down.
 
+He watched Perrine's own Campaign break against that garden from cover with the last of his own company, watched Dunstan Reeve's spear find Tinney and the Old Oak take what was left of them in rather than let it end there, then rode up in time to hear Tinney's own borrowed voice finish killing Perrine mid-retreat. Days later, Teagan Sedge — the captain he'd once held captive at the Keep, the same siege that killed her second, Ren Ashby, with the same Flame — found him in shock outside a tavern and made him answer plainly whether he'd light it again knowing that. He said yes. She named him a weapon that fires the same regardless of who's standing on the other side next, and for the first time all season, he had no answer that argued her out of it.
+
 ## Location
 
 Buried Giant
