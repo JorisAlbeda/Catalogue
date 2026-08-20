@@ -2,7 +2,7 @@
 
 ## Description
 
-Fenna Rook wards graves and boundary-stones for a living, or did, before there was a paying ground left in Ashvale that still needed it. Grey-shawled, soft-spoken, and never without a pouch of chalk and iron filings at her belt for marking a line she means to hold. Doesn't call what she does magic, exactly — calls it manners, the kind owed to the dead and to whatever they left behind, and gets sharp with anyone who treats either carelessly.
+Fenna Rook stands rooted at Buried Giant, bark climbed past both wrists now and up one side of her jaw, grey shawl gone to grey-green lichen at the shoulders — the shape of the woman who once warded graves and boundary-stones for a living still readable in what's left of her stance and her face. Still sharp about manners, the kind owed to the dead and to whatever they left behind; still corrects anyone who calls what she does magic. Doesn't warn people off a line anymore so much as see past it — asked right, she can draw a Vision up out of the world itself, the same instinct that once told her where a grave-robber shouldn't dig.
 
 ## History
 
@@ -13,6 +13,17 @@ Within her second month on that ground, something wearing a voice that wasn't it
 ## Location
 
 Buried Giant, Hinterland
+
+## Status
+
+Transformed, Year 492 — not Deceased. Rooted in place at Buried Giant
+since the second month of the war, changed by something that never
+identified itself and never came back to undo it. Can't travel or ward
+a line by hand anymore, but retains a working mind and her old
+wardswoman's sense for a boundary, now turned toward drawing a Vision
+up out of the world rather than warning grave-robbers off a plot.
+Stays in `characters/`, not `historical/` — a specific in-world reason
+to persist, the same exception Tinney Woodborne's own entry uses.
 
 ## Voice
 

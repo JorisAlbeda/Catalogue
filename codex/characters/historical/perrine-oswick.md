@@ -2,7 +2,7 @@
 
 ## Description
 
-Perrine Oswick keeps a slim, closed ledger with her always, and a measuring cord at her belt that was her mother's before it was hers, worn smooth at the knot. Ink stains sit permanently grey-black in the creases of her hands. She dresses plainly, in a dark buttoned coat cut for use rather than court, and carries herself like a woman used to being watched by neighbours who've known her family for three generations — which she is. By a reputation earned over a decade on the road, she is incapable of letting a lie stand unchallenged, even a small, kind one.
+Perrine Oswick kept a slim, closed ledger with her always, and a measuring cord at her belt that had been her mother's before it was hers, worn smooth at the knot. Ink stains sat permanently grey-black in the creases of her hands. She dressed plainly, in a dark buttoned coat cut for use rather than court, and carried herself like a woman used to being watched by neighbours who'd known her family for three generations — which she was. By a reputation earned over a decade on the road, she was incapable of letting a lie stand unchallenged, even a small, kind one.
 
 ## History
 
@@ -18,13 +18,15 @@ She reached Great Slums to find the ground itself turned against her — the gar
 
 She never made it past the Slums' own edge. Mid-retreat, her own feet stopped answering her — rooted where she stood while the rest of the line broke around her — and a shimmer resolved into Tinney Woodborne's own shape, translucent at first, solid and warm by the time their hand reached her cheek. They named what her people had cost the wood and the Flame she'd already told them wasn't hers, and she corrected both, plainly, even with her legs locked under her. Named, too, that Teagan Sedge had asked Tinney to spare her — a debt she died not understanding. The hand moved to her throat before she'd finished asking why. Tinney said only that they protect the Old Oak, pressed their brow to hers as the light went, and told her to do better in the next life. She didn't get another word out. Full account in `oath-conversation-perrine-tinney-R8-1.md`.
 
+What's remembered of her at Openhold isn't the desk or the title — it's the cord at her belt, and the habit that went with it: she'd re-open a settled account rather than let a wrong number sit, whoever it cost her to say so.
+
 ## Location
 
 Great Slums, Provinces
 
 ## Status
 
-Deceased — killed by Tinney Woodborne at Great Slums, Round 8, in the same season the Usurper Win closed the game.
+Deceased — killed by Tinney Woodborne at Great Slums, Round 8, Year 492 of the Old Oak, in the same season the Usurper Win closed the game.
 
 ## Voice
 

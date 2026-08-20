@@ -10,13 +10,17 @@ Made her living the old way, town to town, trading a night's telling for a bed a
 
 Found her way onto Teagan Sedge's own road at Narrow Pass, another traveler passing through a crossing nobody used to talk about either. Took the offer to stay without much persuading — a captain rebuilding a name is exactly the kind of story worth being close to when it's still being written.
 
+Stayed on at Salt Flats long past the point any other stop would have held her — decades, in the end, though she'd never put a number on it herself. Got her ending for the story she'd been collecting since before Teagan ever offered her a chair: the captain, the horn, the last conversation with the weapon-maker that never got a second one. Still tells it, when asked, though she's stopped promising it's true.
+
 ## Location
 
-Narrow Pass, Cradle
+Salt Flats, Provinces
 
 ## Status
 
-Active
+Active — older now, mostly settled at Salt Flats rather than the road,
+though she still tells a story to anyone passing through who'll sit
+still for one.
 
 ## Voice
 

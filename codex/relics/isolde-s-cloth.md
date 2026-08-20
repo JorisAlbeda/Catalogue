@@ -8,6 +8,8 @@ Isolde's was a relic consisting of a fragment of grey-green cloth, worn soft fro
 
 Isolde Varn was a citizen in Halvard Cray's Empire, serving until her death in a battle at Drowned City. She had allowed Wren Sable to take the blame for a crime that was hers, carrying the weight of guilt in silence for years. On the day of her death, she confessed her truth, though it cost her nothing by then. After her death, Sorrel Wick carried a fragment of Isolde's clothing, a symbol of the unspoken debt between them. Corvin Varn later received the cloth as part of a reckoning, acknowledging the theft of Isolde's story. The relic became a marker of her legacy, outliving her and shaping the future of Ashvale. Its quiet presence in the hands of those who sought truth ensured her final words would never be forgotten.
 
+Corvin sewed it permanently into the lining of his own travelling coat rather than carry it loose, in place of the sold-off Varn signet ring. It's stayed there ever since, through the coat's own passage to the Ashe family and beyond — see `Corvin Varn's Coat`.
+
 ## Location
 
 Drowned City

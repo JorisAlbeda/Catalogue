@@ -2,7 +2,7 @@
 
 ## Description
 
-Dunstan Reeve has held the gate at the Openhold Plains under three Truthwatchers now, and looks it — a thick-necked, grey-stubbled man who still does his own rounds at night rather than trust a junior watchman's ears. Keeps his own small company, the Wallwatch, drilled to the same plain standard it's kept since before Bevan Stroud's own time: nothing showy, nothing that hasn't already been tested. He answers to whoever sits the desk, not to any one Truthwatcher personally, and says so plainly if anyone asks.
+Dunstan Reeve held the gate at the Openhold Plains under three Truthwatchers, and looked it — a thick-necked, grey-stubbled man who still did his own rounds at night rather than trust a junior watchman's ears. He kept his own small company, the Wallwatch, drilled to the same plain standard it had kept since before Bevan Stroud's own time: nothing showy, nothing that hadn't already been tested. He answered to whoever sat the desk, not to any one Truthwatcher personally, and said so plainly if anyone asked.
 
 ## History
 
@@ -12,10 +12,12 @@ What was left of the Wallwatch after the Openhold Plains fell — Dunstan and a 
 
 Dunstan led the Wallwatch into the ruined garden past Great Slums himself, the way he'd led every hard push since the Plains first fell — plain, first through the gap, nothing showy. He reached the old tree standing at the heart of it and put his spear to it the same way he'd have put it to any line that needed breaking. It killed him where he stood, the instant the wood took the blow, before he could pull the spear back. His second-in-command called the retreat over what was left of him.
 
+He was the third Truthwatcher's man in a line that never once got raised fresh — just handed down, drilled the same plain way, generation on generation — and the Wallwatch he left behind went to no one, the first break in that line anyone can remember.
+
 ## Location
 
 Great Slums, Provinces
 
 ## Status
 
-Deceased — killed by the garden's own tree, Great Slums, Round 8. Command of the Wallwatch currently unassigned.
+Deceased — killed by the garden's own tree, Great Slums, Round 8, Year 492 of the Old Oak. Command of the Wallwatch currently unassigned.
