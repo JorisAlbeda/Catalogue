@@ -6,7 +6,7 @@ Brack was an urban legend in the Fertile Valley. Supposedly, he maintained a pot
 
 ## History
 
-Brack was supposedly born and raised at the Fertile Valley. Some say he fell in the lake as a child, and inherited its fury. Locals in Ashvale will swear he actually existed, and advised Perrin Ashe himself during the war, but no official record of his life exists.
+Brack was supposedly born and raised at the Fertile Valley. Some say he fell in the lake as a child, and inherited its fury. Locals in Ashvale will swear he actually existed, and advised Perrin Ashe himself during Lilianne's war against Sorrel Wick's rebellion, but no official record of his life exists.
 
 ## Location
 

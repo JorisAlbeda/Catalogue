@@ -22,13 +22,13 @@ In the weeks after: pilgrims began walking the road to Great Slums, kneeling at 
 
 ## Location
 
-Great Slums, Provinces
+Heart of the Oak, the Hinterland
 
 ## Status
 
 Deceased — killed in the fighting at Great Slums late in Year 492, defending the Old Oak from Perrine Oswick's siege. Consciousness persists as, or through, the Old Oak itself; capable of manifesting a solid, corporeal shimmer of their own likeness at will. Growing numbers of pilgrims now treat the tree as something closer to a god than a grave.
 
-Decades on, Openhold answers to Woodborne outright, not by any siege or vote but the way ground settles under a weight that's been leaning on it a long while — Tinney holds it uncontested, in fact as well as name, and the pilgrim road to Great Slums has only grown busier with the years.
+Decades on, Openhold answers to Woodborne outright, not by any siege or vote but the way ground settles under a weight that's been leaning on it a long while — Tinney holds it uncontested, in fact as well as name, and the pilgrim road to what's now called Heart of the Oak has only grown busier with the years.
 
 ## Voice
 

@@ -6,7 +6,7 @@ Magician's Code is a magic academy as old as the Woodland Empire itself. Its hal
 
 ## History
 
-Currently flooded with applicants drawn by rumours of the Darkest Flame. In the 410th year of the Old Oak, Chancellor Lilith Woodborne stayed here while overseeing the reinforcement of Charming Valley's defences, and granted audience in its main chamber to Marren Wick, claimant to the vacant Truthwatcher's desk.
+In the 410th year of the Old Oak, Magician's Code was flooded with applicants drawn by rumours of the Darkest Flame. Chancellor Lilith Woodborne stayed here while overseeing the reinforcement of Charming Valley's defences, and granted audience in its main chamber to Marren Wick, claimant to the vacant Truthwatcher's desk.
 
 ## Location
 

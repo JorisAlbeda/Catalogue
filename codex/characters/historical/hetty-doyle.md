@@ -8,7 +8,7 @@ A brisk, scale-quick trader who ran the stalls at Tinker's Fair since Ede Oswick
 
 Hetty apprenticed at Tinker's Fair under a cloth-trader from Ashvale who'd married into Openhold two generations back, and inherited the stall outright when the old woman's hands got too stiff to weigh anything fairly anymore. She was already running it alone by the time Ede Oswick arrived, newly out from her own family's mill and green at the actual arithmetic of trading fair — Hetty taught her the counting, and got taught back, by her own account, a patience she didn't have before. She credited Ede for that for the rest of her life, and Ede's own daughter Perrine for never once needing the lesson repeated.
 
-She outlived Ede, and outlived the war that took Perrine too, running the stall well into old age before finally passing it to hands she'd trained herself.
+She outlived Ede, and outlived the Openhold war that took Perrine too, running the stall well into old age before finally passing it to hands she'd trained herself.
 
 ## Location
 

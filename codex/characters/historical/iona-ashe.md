@@ -22,7 +22,7 @@ with it. She set out from Ashvale as its newest Exile, arriving at
 Buried Giant, where she recruited the relic-hunter Doran Krell as her
 adviser in the campaign's first days.
 
-After the war, Iona spent what little standing she had left getting the Great Spire's own memorial stone recut with the truth instead of the mercy it had always claimed to be — it didn't hold, and the Spire came down years later regardless. She died long before her descendant Wynn Ashe was born; the coat, and its unfinished-debt habit, passed down through his family in her place.
+After her own rebellion ended, Iona spent what little standing she had left getting the Great Spire's own memorial stone recut with the truth instead of the mercy it had always claimed to be — it didn't hold, and the Spire came down years later regardless. She died long before her descendant Wynn Ashe was born; the coat, and its unfinished-debt habit, passed down through his family in her place.
 
 ## Location
 

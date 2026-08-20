@@ -17,7 +17,7 @@ Buried Giant, Hinterland
 ## Status
 
 Transformed, not Deceased. Rooted in place at Buried Giant
-since the second month of the war, changed by something that never
+since the second month of the Openhold war, changed by something that never
 identified itself and never came back to undo it. Can't travel or ward
 a line by hand anymore, but retains a working mind and her old
 wardswoman's sense for a boundary, now turned toward drawing a Vision

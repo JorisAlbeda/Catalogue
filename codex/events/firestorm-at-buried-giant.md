@@ -6,7 +6,7 @@ The Firestorm at Buried Giant was a decisive battle at the end of the war agains
 
 ## History
 
-The battle emerged from Sorrel's decision to stay at Buried Giant, refusing to abandon the site after her exile from the Woodland Empire. In the last month of the war, Lilianne of the Woods attacked the site with a large force, bolstered with the Darkest Flame. The horror of its slaughter led to Lilianne's decision to bury the Darkest Flame and create a memorial, in honour of the lives lost.
+The battle emerged from Sorrel's decision to stay at Buried Giant, refusing to abandon the site after her exile from the Woodland Empire. In the last month of that war against Sorrel Wick's rebellion, Lilianne of the Woods attacked the site with a large force, bolstered with the Darkest Flame. The horror of its slaughter led to Lilianne's decision to bury the Darkest Flame and create a memorial, in honour of the lives lost.
 
 ## Location
 

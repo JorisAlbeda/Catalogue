@@ -6,7 +6,7 @@ A dead city at the far edge of the Hinterland, old enough that nobody living cla
 
 ## History
 
-Discovered by Iona Ashe, in the fourth month of the war, having pushed her column past every mapped edge of the Provinces looking for whatever the wider world still had buried in it. The relic there was never recovered.
+Discovered by Iona Ashe, in the fourth month of her own rebellion, having pushed her column past every mapped edge of the Provinces looking for whatever the wider world still had buried in it. The relic there was never recovered.
 
 ## Location
 

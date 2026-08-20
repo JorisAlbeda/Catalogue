@@ -6,7 +6,7 @@ A country neighbouring the Woodland Empire where the Hinterland used to be. It i
 
 ## History
 
-Formed after the war, Ashvale was established through a truce where the Empire relinquished control of Fertile Valley, Mine, Narrow Pass, and Wastes to a new name. Perrin Ashe, with the support of Corvin Varn, unified these lands under Ashvale's banner. The Ruined Temple, the last remains of the Empire's former rule, became a symbolic meeting ground for Perrin and Corvin. Ashvale's histories focus on the legacy of Corvin Varn, the Fire Talkers' debates over the buried flame, and the unclaimed Mask in the Reliquary, which questions the meaning of symbols versus their deeds.
+Formed after Lilianne's war against Sorrel Wick's rebellion, Ashvale was established through a truce where the Empire relinquished control of Fertile Valley, Mine, Narrow Pass, and Wastes to a new name. Perrin Ashe, with Corvin Varn at his side — a rival turned ally turned, by the time Ashvale stood, something closer to a partner — unified these lands under Ashvale's banner. The Ruined Temple, the last remains of the Empire's former rule, became a symbolic meeting ground for Perrin and Corvin. Ashvale's histories focus on the legacy of Corvin Varn, the Fire Talkers' debates over the buried flame, and the unclaimed Mask in the Reliquary, which questions the meaning of symbols versus their deeds.
 
 ## Location
 

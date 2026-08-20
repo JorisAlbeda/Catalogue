@@ -6,7 +6,7 @@ Perrin Ashe was the first Warden of Ashvale. A man of quiet resolve, his sun-cra
 
 ## History
 
-Perrin Ashe was an exile who rebuilt a company from the ruins of war, never allowing it to break under his command. After some skirmishes with Corvin Varn, the two decided to instead face the Woodland Empire together. Despite offers of alliance from Chancellor Lilianne, he declined the Horned Mask, choosing independence over imperial ties. When the brutal fighting against the Empire came to a standstill, leading to a truce, he founded Ashvale, a self-governed land that answered to no authority. His military campaigns saw him lead companies into the Wastes, defeating bandits who revered the Bandit Queen.
+Perrin Ashe was an exile who rebuilt a company from the ruins of war, never allowing it to break under his command. After a run of skirmishes with Corvin Varn over Fertile Valley, Boiling Lake, and finally the Mine, the two struck a truce rather than spend themselves further on each other, deciding to face the Woodland Empire instead. What started as neutrality between rivals warmed into something neither expected by the time the war was ending — by the founding of Ashvale, they were partners as much as co-founders. Despite offers of alliance from Chancellor Lilianne, he declined the Horned Mask, choosing independence over imperial ties. When the brutal fighting against the Empire came to a standstill, leading to a truce, he founded Ashvale, a self-governed land that answered to no authority. His military campaigns saw him lead companies into the Wastes, defeating bandits who revered the Bandit Queen.
 
 ## Location
 

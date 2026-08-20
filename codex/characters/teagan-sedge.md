@@ -26,14 +26,14 @@ Decades on: held Salt Flats the rest of her working life, never took Openhold's 
 
 ## Location
 
-Salt Flats, Provinces
+Farrowhold, Provinces
 
 ## Status
 
 Active — old now, ruling Farrowhold in name more than in daily
 business, having long since handed the Farrow Company to hands she
 trusts. Still to be found at Salt Flats: the country's own elder, and
-a first-hand account of the war for anyone who asks rather than a
+a first-hand account of the Openhold war for anyone who asks rather than a
 story handed down secondhand.
 
 ## Voice

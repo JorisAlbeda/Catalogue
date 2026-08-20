@@ -6,7 +6,7 @@ Isolde Varn's death occurred sixty years ago during a confrontation at Drowned C
 
 ## History
 
-Isolde Varn's death became a pivotal moment in the war. Corvin Varn, her descendant, later honoured her legacy by addressing the unresolved debts of her actions. A marker at Drowned City stands as a silent testament to her story, though its inscription remains unattributed.
+Isolde Varn's death became a pivotal moment in the war against the Sorcerer of the Woods. Corvin Varn, her descendant, later honoured her legacy by addressing the unresolved debts of her actions. A marker at Drowned City stands as a silent testament to her story, though its inscription remains unattributed.
 
 ## Location
 

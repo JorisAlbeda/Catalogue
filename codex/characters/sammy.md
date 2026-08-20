@@ -16,11 +16,11 @@ Showed her the middle shape their first evening outside, at the old well — not
 
 A week later, found Tinney Woodborne already at Farrin's table — kin, by the sound of it, to the same Lilith Woodborne he once carried to Openhold and back. Traded a story about Lilianne's own hand for Tinney's own delight at the connection, and was still at that table when the sky went green over Buried Giant. Recognized the color before either of the others said its name; he'd seen it twice before, neither time kindly.
 
-Decades passed at Salt Flats the way they always do for him — unhurried, unmarked on him at all. Outlasted Teagan's own working years the same way he'd outlasted every empire before hers, still at Farrin's table some nights, still not saying which empire he served first.
+Decades passed at what's now Farrowhold the way they always do for him — unhurried, unmarked on him at all. Outlasted Teagan's own working years the same way he'd outlasted every empire before hers, still at Farrin's table some nights, still not saying which empire he served first.
 
 ## Location
 
-Salt Flats, Provinces
+Farrowhold, Provinces
 
 ## Status
 

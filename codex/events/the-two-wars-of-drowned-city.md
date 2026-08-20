@@ -15,7 +15,7 @@ either was finished.
 
 ## History
 
-First spoken aloud at Drowned City, Round 2, witnessed by both
+First spoken aloud at Drowned City, early in that same war, witnessed by both
 retinues' own warbands making camp along the city's walls.
 
 ## Location

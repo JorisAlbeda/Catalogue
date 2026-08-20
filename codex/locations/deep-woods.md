@@ -8,6 +8,10 @@ Deep Woods was the capital of the Woodland Empire. It served as a base for Lilia
 
 Six months into her reign as Chancellor, Lilianne of the Woods was gifted the Verdflayme, or Sticky Fire, by the Old Oak. It was from here that she first set out to war with her Rangers, her supplies always coming from the Cradle.
 
+## Present day
+
+No longer the Empire's own seat — that passed to Heart of the Oak once Tinney Woodborne's own garden drew the whole realm's weight toward it. Deep Woods keeps its old name and its old standing as the Rangers' own ground, the capital in memory more than in practice now.
+
 ## Location
 
 The Cradle

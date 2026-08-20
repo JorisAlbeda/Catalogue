@@ -6,9 +6,9 @@ Tamsin Reed carries a satchel of poultices and a walking staff worn smooth at th
 
 ## History
 
-Tamsin attached herself to Rowan Voss's company at Drowned City, in the first month of the war, drawn from the wider world's own drifting folk rather than raised at home in Ashvale.
+Tamsin attached herself to Rowan Voss's company at Drowned City, in the first month of Rowan Voss's invasion, drawn from the wider world's own drifting folk rather than raised at home in Ashvale.
 
-She fell at Plains, in the fourth month of the war, when Rowan's assault on Marren Wick's own garrison broke against the Keep's walls — the company she'd followed for four seasons never got the chance to be the one that turned her away.
+She fell at Plains, in the fourth month of Rowan Voss's invasion, when Rowan's assault on Marren Wick's own garrison broke against the Keep's walls — the company she'd followed for four seasons never got the chance to be the one that turned her away.
 
 ## Status
 

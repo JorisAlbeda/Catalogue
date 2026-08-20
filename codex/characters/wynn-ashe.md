@@ -28,7 +28,7 @@ before he was born, but the family kept both the coat and her old habit
 of never calling a debt settled just because it had gone quiet. His
 branch had sent someone out to check on the Great Spire's memorial
 stone every so often since Iona first asked for its recutting, eighty
-years back; three years before the war, at sixteen and newly
+years back; three years before the Openhold war, at sixteen and newly
 apprenticed to an Ashvale mason, it was Wynn's own turn, and he spent
 that summer re-tracing the worn grooves of Ressa Kindler's own words to
 keep them legible — upkeep, not authorship. The Spire was never just a

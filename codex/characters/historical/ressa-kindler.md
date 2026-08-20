@@ -8,7 +8,7 @@ Ressa Kindler's clan was linked to the Fire Talkers, who defeated Isolde Varn's 
 
 Later in that same war, a book of old tavern songs surfaced from the Great Spire's own hearth, greenish-lit, when Iona Ashe traded a secret to the ruin's older magic rather than take the tome it first offered her — the Fire Talkers' own account of the flame as debt, not mercy, passed down in verse. Iona took it on as an adviser, carrying Ressa's voice forward the same way she already carries Corvin's coat.
 
-Epilogue: with the war ended and Marren Wick asking after what the Empire owed, Iona named the memorial stone at the Spire's foot as the debt still open. Ressa herself couldn't answer for it — dead the better part of a century by then — but her own verse survived her, and it was that surviving account, not a living clanswoman, that decided what finally got carved there about her own people.
+Epilogue: with Iona Ashe's own rebellion ended and Marren Wick asking after what the Empire owed, Iona named the memorial stone at the Spire's foot as the debt still open. Ressa herself couldn't answer for it — dead the better part of a century by then — but her own verse survived her, and it was that surviving account, not a living clanswoman, that decided what finally got carved there about her own people.
 
 ## Location
 Fertile Valley

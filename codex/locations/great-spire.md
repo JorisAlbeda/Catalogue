@@ -10,6 +10,8 @@ The memorial was created following the Firestorm at Buried Giant, where Lilianne
 
 For roughly a century, the memorial stone at the Spire's foot carried a single inscription, by the most complete surviving transcription: _"Here the fire was laid to rest, in mercy, that the war might end and peace remain."_ It named no clan, no theft, and no cost — only the ending.
 
+**Editor's note:** The inscription doesn't name which war, and neither does any surviving account of who first carved it — most historians place it at Lilianne's burial of the Darkest Flame after her war against Sorrel Wick's rebellion, given the timing, but the stone itself is silent on the point.
+
 In the 412th year of the Old Oak, at Iona Ashe's asking and with Marren Wick's consent, the stone was recut. Ressa Kindler of the Fire Talkers had died the better part of a century before, but her own account of the burial survived her, recovered from the Spire's own hearth as a book of old songs and carried forward by Iona rather than composed fresh for the occasion. The new inscription reads: _"The flame was taken from the Fire Talkers and buried without asking. They never called it mercy. Neither should you."_ No sculptor's or petitioner's name was added beneath it — the words are credited to Ressa Kindler directly, a century after her death, by her own clan's surviving text. It is the first inscription at the Spire, in living memory, naming the people the flame was actually taken from.
 
 Word this past season confirms what Iona Ashe's own descendants had

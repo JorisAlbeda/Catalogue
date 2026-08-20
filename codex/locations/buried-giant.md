@@ -8,15 +8,19 @@ Buried Giant was a site of fierce conflict where Sorrel Wick's forces were ultim
 
 Buried Giant emerged as a pivotal battleground during the war between Lilianne and Sorrel Wick. Lilianne led a warband from Deep Woods to attack the site, gathering allies to confront Sorrel's forces. The battle was marked by the use of Sticky Fire, which sealed Sorrel's fate and ended her claim to the crown. After the battle, Sorrel was banished to Narrow Pass, and her remaining forces were annihilated. The site became a place of remembrance, with a memorial built and the violent flame itself buried to honor the event. The victory at Buried Giant solidified Lilianne's role as Oathkeeper, marking the end of the war and the beginning of a new era. Its legacy endured through the relics and banners carried by the Empire.
 
-Round 2: Iona Ashe's column campaigned against Chancellor Lilith Woodborne's defenders here and broke them, planting her own warbands on the site for the first time — rule now shared rather than solely the Chancellor's.
+Early in that same campaign, Iona Ashe's column campaigned against Chancellor Lilith Woodborne's defenders here and broke them, planting her own warbands on the site for the first time — rule now shared rather than solely the Chancellor's.
 
-Round 3: Lilith answered in kind — turned Iona's own rallied support against her, provoking in-fighting that scattered or killed the warbands Iona had planted here. The site is the Chancellor's alone again.
+Not long after, Lilith answered in kind — turned Iona's own rallied support against her, provoking in-fighting that scattered or killed the warbands Iona had planted here. The site is the Chancellor's alone again.
 
 Generations later, Wynn Ashe — Iona's own descendant — took the ground back from the bandits who'd squatted on it since the Great Spire fell, the first of his line to hold it outright rather than lose it. Truthwatcher Perrine Oswick, answering his own honest account of what he found in the Spire's rubble with an equally honest question of her own, put Openhold's formal backing behind his claim in writing — not a favor owed quietly, but a standing account, checkable if it's ever disputed. Neither of them has said publicly what the Spire's own collapse actually uncovered.
 
-The Cairn Watch marched out of here nearly whole and came back from Openhold Plains as almost nothing — the siege there cost Wynn Ashe all but a handful of the company he'd built up since Round 0. What's left of it stands the watch alone now, the only company he has to his name.
+The Cairn Watch marched out of here nearly whole and came back from Openhold Plains as almost nothing — the siege there cost Wynn Ashe all but a handful of the company he'd built up since he first marched on this ground. What's left of it stands the watch alone now, the only company he has to his name.
 
 Perrine Oswick rode on the site itself not long after, over the book Wynn had carried home from the Keep — her own terms put to him directly, no warning sent ahead. The last of the Cairn Watch stood to her here and broke, and it was only in that standing that the older truth surfaced plainly: the watch had always answered to the Hold, and so, in the end, to her. She took the book and left the rest as it was — Wynn's own claim on the ground untouched, and the Cairn Watch's one remaining warband still standing its post here, hers now in name as much as it always was in fact.
+
+## Present day
+
+Decades on, Wynn Ashe still holds this ground — old now, past fighting for it, but still the one who tends the Spire's own marker and tells anyone who asks what actually happened here.
 
 ## Location
 
