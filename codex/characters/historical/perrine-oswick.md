@@ -26,7 +26,7 @@ Great Slums, Provinces
 
 ## Status
 
-Deceased — killed by Tinney Woodborne at Great Slums, Round 8, Year 492 of the Old Oak, in the same season the Usurper Win closed the game.
+Deceased — killed by Tinney Woodborne at Great Slums, late in Year 492 of the Old Oak, the same season Tinney's own claim over Openhold went uncontested for good.
 
 ## Voice
 

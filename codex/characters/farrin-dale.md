@@ -8,9 +8,15 @@ An innkeeper's build — big hands better suited to a ladle than the rope they'd
 
 Ran the last real wayside inn on the Provinces road before the bandits holding Salt Flats emptied it out and put him to work stretching thin rations for their own camp instead. Freed when Teagan Sedge's company took the ground back and searched out whoever the bandits had been keeping. Knows exactly how to make a short larder last a long march — a skill he had drilled into him daily as a captive, and one Teagan means to put to better use than they did.
 
+Decades on, he finally reached for that apron again — rebuilt something like the wayside inn he'd lost, smaller, at Salt Flats itself, and never once let a guest leave hungry on his watch.
+
 ## Location
 
 Salt Flats, Provinces
+
+## Status
+
+Active — old now, still keeping his own larder, though younger hands do most of the stretching these days.
 
 ## Voice
 

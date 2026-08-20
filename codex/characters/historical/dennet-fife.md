@@ -1,13 +1,19 @@
 # Dennet Fife
 
 ## Description
-Dennet Fife was a recruited character known as the Pied Piper. He was drawn during a Search in the Cradle discard pile at Charming Valley. His appearance suggested an Order-adjacent affiliation, but he was Beast-suited. The Ruined Temple's standing effect barred non-Perrin players from using Beast cards, which invalidated his recruitment. He was retracted from the table before joining. His status as a player was never confirmed beyond the initial recruitment attempt.
+
+Called, by the handful of people who claim to remember him at all, "the Pied Piper" — though none of them agree on why, and at least one insists it was a nickname he hated. Charming Valley's own record-keepers list him among the academy's turned-away hopefuls, Beast-tempered by trade, drawn toward Marren Wick's growing network in its early days.
 
 ## History
-Dennet Fife was recruited during Round 6 of a Search in Charming Valley. The Ruined Temple's effect prevented non-Perrin players from playing Beast cards, which directly impacted his status. His Beast-suited nature made him incompatible with the temple's restrictions. The retraction occurred before he could officially join the table. His recruitment was part of a larger game dynamic involving card types and location effects. The incident highlighted the constraints of the game's rules on player interactions.
+
+Whatever brought Dennet Fife to Charming Valley didn't hold. The Ruined Temple's own old law bars any hand but Perrin Ashe's line from claiming a beast-tempered ally there, and by every surviving account, that law caught him before he ever properly arrived — turned back at the threshold, not so much as a name left in Marren Wick's own ledger. Whether he went on to serve anyone else, or simply walked back out of Charming Valley and out of the record entirely, nobody now living can say with confidence.
+
+**Editor's note:** Half the sources that mention Dennet Fife at all disagree on whether he existed as more than a rumor. We include him here only because the name keeps resurfacing.
 
 ## Location
+
 Charming Valley
 
 ## Status
-Deceased
+
+Unconfirmed — no verified account of him after the Ruined Temple turned him back.

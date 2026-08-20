@@ -6,8 +6,14 @@ Cobb Stane keeps the boundary stones at Charming Valley — waist-high markers c
 
 ## History
 
-Cobb Stane has kept Charming Valley's boundary stones for longer than anyone currently living can confirm; the Truthwatcher's desk changed hands so many times he stopped learning each new claimant's face, judging them instead by whether their proof survives the Burning. First appeared, Round 0, taken on as Marren Wick's adviser.
+Cobb Stane has kept Charming Valley's boundary stones for longer than anyone currently living can confirm; the Truthwatcher's desk has changed hands so many times he stopped learning each new claimant's face, judging them instead by whether their proof survives the Burning. First taken on as an adviser in Marren Wick's own early campaign, back when the desk itself was still new.
+
+Decades later, the desk has changed hands again since, and Cobb Stane hasn't changed at all — still keeping the stones, still holding the Burning once a season, exactly as unaged as everyone who's ever tried to place his birth year has found him.
 
 ## Location
 
 Charming Valley
+
+## Status
+
+Active — unchanged by the years, as ever.

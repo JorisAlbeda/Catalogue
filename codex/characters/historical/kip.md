@@ -6,7 +6,7 @@ Kip ran messages for whoever paid at Charming Valley, and had a habit that's mad
 
 ## History
 
-Recruited into Marren Wick's growing network at Charming Valley, Round 2, alongside a second wave of the academy's turned-away hopefuls.
+Recruited into Marren Wick's growing network at Charming Valley in the early days of her campaign, alongside a second wave of the academy's turned-away hopefuls.
 
 ## Location
 

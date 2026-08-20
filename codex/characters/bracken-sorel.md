@@ -6,4 +6,6 @@
 
 **Location:** Plains, Cradle
 
+**Status:** Active — old now, past the point of running the family stall himself, but still the one people bring the right question to, if they know to ask it.
+
 **Voice:** Vocabulary level: simple, plain. Verbal habit: answers a question about the wider country before the one he was actually asked ("You're asking about coin. I'll tell you what I saw past the second treeline first."). Emotional default: watchful, faintly restless. Speech rhythm: slow, deliberate.

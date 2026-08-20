@@ -16,14 +16,15 @@ Buried Giant, Hinterland
 
 ## Status
 
-Transformed, Year 492 — not Deceased. Rooted in place at Buried Giant
+Transformed, not Deceased. Rooted in place at Buried Giant
 since the second month of the war, changed by something that never
 identified itself and never came back to undo it. Can't travel or ward
 a line by hand anymore, but retains a working mind and her old
 wardswoman's sense for a boundary, now turned toward drawing a Vision
 up out of the world rather than warning grave-robbers off a plot.
-Stays in `characters/`, not `historical/` — a specific in-world reason
-to persist, the same exception Tinney Woodborne's own entry uses.
+Decades on, still rooted at the same spot, bark climbed further still
+but the mind behind it no less sharp — whatever changed her shows no
+sign of loosening its hold, for better or worse.
 
 ## Voice
 

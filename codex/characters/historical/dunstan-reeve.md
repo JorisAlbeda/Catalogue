@@ -20,4 +20,4 @@ Great Slums, Provinces
 
 ## Status
 
-Deceased — killed by the garden's own tree, Great Slums, Round 8, Year 492 of the Old Oak. Command of the Wallwatch currently unassigned.
+Deceased — killed by the garden's own tree, Great Slums, late in Year 492 of the Old Oak. Command of the Wallwatch currently unassigned.

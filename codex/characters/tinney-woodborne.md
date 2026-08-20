@@ -28,6 +28,8 @@ Great Slums, Provinces
 
 Deceased — killed in the fighting at Great Slums late in Year 492, defending the Old Oak from Perrine Oswick's siege. Consciousness persists as, or through, the Old Oak itself; capable of manifesting a solid, corporeal shimmer of their own likeness at will. Growing numbers of pilgrims now treat the tree as something closer to a god than a grave.
 
+Decades on, Openhold answers to Woodborne outright, not by any siege or vote but the way ground settles under a weight that's been leaning on it a long while — Tinney holds it uncontested, in fact as well as name, and the pilgrim road to Great Slums has only grown busier with the years.
+
 ## Voice
 
 Living Tinney: vocabulary childlike and exclamatory — "Oh!" as a near-constant opener, wide-eyed questions asked with real curiosity rather than rhetoric, warm epithets for near-strangers ("good lady," "my friend," "young friend") offered freely and without irony. Verbal habit: answers a hard question with a softer one of their own, and narrates their own feelings openly rather than masking them — tears, delight, dread all surface immediately and without editing. Emotional default: guileless warmth shading fast into real grief or real menace depending on what's actually threatened; the shift, when it comes, arrives in the same childlike cadence rather than a colder one, which is what makes it land. Speech rhythm: unhurried, digressive, comfortable letting silence sit until someone else fills it.
