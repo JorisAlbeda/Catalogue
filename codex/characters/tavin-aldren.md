@@ -2,16 +2,16 @@
 
 ## Description
 
-Younger than Senna by a full generation, whipcord-thin, missing the little finger on his left hand from a drill gone wrong he refuses to blame anyone for. Wears the Wallwatch's own plain grey rather than anything marking him out as Senna's own man specifically, though everyone at Openhold Plains already knows which he is.
+A Wallwatch sergeant's build kept past the point most give it up — broad through the shoulders, quiet on his feet, quicker to check a strap twice than to speak twice. Carries a spear rather than a sword, oath-sworn the same way every blade at Openhold's gate is, the shaft worn smooth where his hand sits.
 
 ## History
 
-Raised up through the Wallwatch's own ranks under Senna's watch rather than Dunstan Reeve's old line — too young to have known the company at all before her. Followed her out of the gate company when she took the Truthwatcher's desk this year, along with two others who swore to her personally rather than to the post; the four of them call themselves the Spearbound, half in earnest, half because nobody else has given them a better name yet.
+Served the Wallwatch under Dunstan Reeve, and stayed on through the gap Reeve's death left, the same gap Senna Coldwell quietly filled from the other side of the same gate for twenty years. When she finally claimed the Wallwatch's own command openly this year, she gave him the company she'd raised out of what was left of the old gate-guard to lead — the Spearbound, oath-sworn and drilled her own way rather than rebuilt exactly as it stood under Reeve. He's never once asked her why she waited twenty years to claim what was already hers in practice.
 
 ## Location
 
-Openhold Plains, Cradle
+Openhold Plains
 
-## Status
+## Voice
 
-Active
+Vocabulary level: plain, gate-guard economy — reports rather than explains. Verbal habit: answers with a count before a description ("Two spears, maybe less notice than that" before saying why it matters). Speech rhythm: short, evenly spaced, a soldier's cadence more than a talker's.

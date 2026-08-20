@@ -10,6 +10,8 @@ Grew up a street urchin in the Ampa — her clan, not a place, though the two we
 
 Five years ago, a vivid dream sent her walking back to the ground her home block had stood on, by then reclaimed entirely by the forest growing out from the Old Oak's own root. It was there the choosing was decreed, not asked — she didn't apply for it and didn't expect it. Since Tinney Woodborne and the Old Oak became one and the same, Fia answers to neither separately: she serves the Oak directly, and says plainly that it speaks with more than one voice these days.
 
+In Year 540, she paid an unannounced visit to Senna Coldwell at Openhold, wandering alone into the garden to admire the roses while trading a quiet word with someone only she could hear. Pressed on whether it's her steering the border's own slow creep or the wood itself, she didn't deny it might be the latter — the closest she's come, on record, to admitting the growth isn't fully hers to direct. She named the sprig Senna had been carrying facedown on sight, called it "The Old Oak," and told her to plant it herself somewhere she'd know when she found it, before an errand to "a strategy meeting with the actors" pulled her away mid-conversation.
+
 ## Location
 
 Openhold
