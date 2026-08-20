@@ -41,5 +41,20 @@ What is known is that when Lilith, Last Chancellor of the Woodland Empire, rode 
 
 ## Year 492 of the Old Oak: The Open Plains
 
-The current year. While Openhold flourishes as the Hold's capital, the wide Openlands are riddled with bandits, and life is difficult outside of the lush plains.
-The Woodlands have become a quiet, mysterious place, where the forestfolk and beasts dwell who have little interest in the cities built in Openhold. Ashvale, meanwhile, is struggling economically. It seems these two neighbours will have a part to play in the events that will soon unfold in the Openlands...
+While Openhold flourished as the Hold's capital under Perrine Wick's rule as Truthwatcher, the wide Openlands were riddled with bandits, and life was difficult outside of the lush plains.
+The Woodlands had become a quiet, mysterious place, where the forestfolk and beasts dwelled who had little interest in the cities built in Openhold. Ashvale, meanwhile, was struggling economically. Those two neighbours had a part to play in the events that unfolded in the Openlands that year — the invasion by Teagan Sedge, the disaster orchestrated by Wynn Ashe with the Darkest Flame and the death of Tinney Woodborne, the shaman who'd become something else entirely at the Great Slums that were to become the Heart of the Oak.
+
+## Year 540 of the Old Oak
+
+The current year. The "Openlands" didn't survive their Truthwatcher's death. Openhold itself survives independent, west of everything that used to answer to it. Ashvale remains its own country to the east, smaller than it was. Farrowhold, a fourth country carved from what used to be bandit-held Salt Flats, sits independent in the north.
+
+### The Growing Wood
+
+Everything else — most of the old Openland provinces, the Hinterland, and the ground the Woodland Empire never gave up in the first place — belongs to the Second Woodland Empire now, and it hasn't stopped growing. What began at a single healed garden at Great Slums has become a wood that moves faster than a wood should: stands of old growth reach full height in a season, not a century, and what's moved in to live among them doesn't always keep to a shape anyone would call natural. The border keeps sliding outward, a little more each year, and it's rarely the Empire's own doing in any way its neighbours can point to — the trees simply reach the next valley, and whoever was farming it isn't anymore. Openhold's Truthwatcher, Ashvale's Warden, and Farrowhold's council each agree without needing to say so aloud: the growing has to stop, or there won't be a border left to defend it from.
+
+Fia of the Ampa, Emissary of the Old Oak as the title of Chancellor is now known in the Second Woodland Empire, hasn't answered the three surrounding nations' formal protests with anything but silence and more trees, and they agree it is time to act.
+
+### Iron That Won't Bite
+
+The reason none of the three nations has simply marched on the Empire's own border and settled it by force: little of what any of them has built since the last war works once it crosses into Empire ground — powder won't catch, barrels jam on nothing, compasses lose themselves past a certain treeline.
+The best-standing theory is that what holds in that ground is what's been sworn over: an oath-bound blade bites true, an untested one doesn't. Officers on every side have taken to swearing their soldiers to their weapons as cheap insurance. A thinner rumour out of Farrowhold claims someone there has already found the missing piece — a new-built weapon that bites without the oath — pointing at silver, though nobody's confirmed it or produced the thing itself.
