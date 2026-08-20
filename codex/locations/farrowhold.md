@@ -2,7 +2,7 @@
 
 ## Description
 
-A wide, flat stretch of salt-crust and pale sand along the Provinces' northern edge, bordered by the Second Woodland Empire's own reach to the south and the river that still cuts along one side of it. Once bare enough that a rider could be seen crossing it from a mile off in any direction; the salt-crust has since given way, in patches, to the same green that first crept up from the riverbank the year the ground changed.
+A wide, flat stretch of salt-crust and pale sand along the Provinces' northern edge, bordered by the Second Woodland Empire's own reach to the south and the river that still cuts along one side of it. Once bare enough that a rider could be seen crossing it from a mile off in any direction; the salt-crust has since given way, in patches, to the same green that first crept up from the riverbank the year the ground changed. The newest and least tradition-bound of its neighbours, and it shows in its workshops as much as its council chamber — Farrowhold spends more freely on untested craft than either Openhold or Ashvale would risk.
 
 ## History
 
@@ -12,7 +12,7 @@ She never stopped holding it. Rather than press a claim on Openhold's own throne
 
 ## Present day
 
-Farrowhold answers to no throne but its own. It keeps no standing quarrel with the Second Woodland Empire to its south, trading across the border same as anyone, but it has never once sworn itself to the Old Oak the way most of the old Openhold territory eventually did — a point of quiet, deliberate pride for a country founded by someone who watched two other thrones fall to people who knelt too easily. Small, plainly governed, and unglamorous by design: no court to speak of, a council of the Farrow Company's own old hands rather than a single ruler's household, and a ledger kept as carefully as any Truthwatcher's ever was.
+Farrowhold answers to no throne but its own. It keeps no standing quarrel with the Second Woodland Empire to its south, trading across the border same as anyone, but it has never once sworn itself to the Old Oak the way most of the old Openhold territory eventually did — a point of quiet, deliberate pride for a country founded by someone who watched two other thrones fall to people who knelt too easily. Small, plainly governed, and unglamorous by design: no court to speak of, a council of the Farrow Company's own old hands rather than a single ruler's household, and a ledger kept as carefully as any Truthwatcher's ever was. That same practical streak has turned toward the border trade of late — Farrowhold's own smiths spend more on speculative metalwork than either neighbour can afford to, chasing whatever edge might finally hold against Empire ground, and the council's said little about how far that work has actually gotten.
 
 ## Location
 

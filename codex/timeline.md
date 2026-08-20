@@ -44,7 +44,7 @@ What is known is that when Lilith, Last Chancellor of the Woodland Empire, rode 
 While Openhold flourished as the Hold's capital under Perrine Wick's rule as Truthwatcher, the wide Openlands were riddled with bandits, and life was difficult outside of the lush plains.
 The Woodlands had become a quiet, mysterious place, where the forestfolk and beasts dwelled who had little interest in the cities built in Openhold. Ashvale, meanwhile, was struggling economically. Those two neighbours had a part to play in the events that unfolded in the Openlands that year — the invasion by Teagan Sedge, the disaster orchestrated by Wynn Ashe with the Darkest Flame and the death of Tinney Woodborne, the shaman who'd become something else entirely at the Great Slums that were to become the Heart of the Oak.
 
-## Year 540 of the Old Oak
+## Year 540 of the Old Oak: The Second Woodland Empire
 
 The current year. The "Openlands" didn't survive their Truthwatcher's death. Openhold itself survives independent, west of everything that used to answer to it. Ashvale remains its own country to the east, smaller than it was. Farrowhold, a fourth country carved from what used to be bandit-held Salt Flats, sits independent in the north.
 
