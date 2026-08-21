@@ -20,6 +20,10 @@ That account concerns the Darkest Secret, the tome — a different object from t
 
 The Flame and the tome were back in the same hands for one month only. Wynn broke Openhold Keep's own gate with the orb — the first time since Lilianne's own war it's been lit in anger — and carried the tome out of the same siege, taken from Teagan Sedge once the walls finally gave. He read the first page of it before Perrine Oswick followed him home to Buried Giant and took it back by the same right of arms, using the very warband Wynn had thought was his own to do it. The orb stays with him. The tome doesn't.
 
+Sometime in the years since, it left Wynn Ashe's own hands again, and this account holds no record of exactly when or why. What's known: it turned up buried under Mountain, at the high forge worked for three generations by the Marrow family — sunk deep enough, and long enough, that even the smiths above it never once suspected what was under their own floor. A smith's own line, driving Bandits off that same ground to reclaim it, dug it loose without meaning to and without knowing yet what it was they'd found. Cade Marrow took it for his own, the same season he renamed the mountain Oathforge.
+
+Held long enough, it doesn't stay quiet in anyone's hand — a low, steady itch to keep it close rather than use it or hand it off, dressed up each time as good sense rather than what it actually is. Cade felt the first edge of it within days of pulling it free of the ground.
+
 ## Location
 
-The orb (Sticky Fire) is with Wynn Ashe, at Buried Giant. The tome (the Darkest Secret) was buried with Perrine Oswick.
+Currently held by Cade Marrow, at Oathforge (formerly Mountain), Hinterland. The tome (the Darkest Secret) was buried with Perrine Oswick, per the last account above.

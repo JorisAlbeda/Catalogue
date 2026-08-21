@@ -12,6 +12,8 @@ Five years ago, a vivid dream sent her walking back to the ground her home block
 
 In Year 540, she paid an unannounced visit to Senna Coldwell at Openhold, wandering alone into the garden to admire the roses while trading a quiet word with someone only she could hear. Pressed on whether it's her steering the border's own slow creep or the wood itself, she didn't deny it might be the latter — the closest she's come, on record, to admitting the growth isn't fully hers to direct. She named the sprig Senna had been carrying facedown on sight, called it "The Old Oak," and told her to plant it herself somewhere she'd know when she found it, before an errand to "a strategy meeting with the actors" pulled her away mid-conversation.
 
+When war threatened from the forest's borders, her primary aid was an unlikely one to the outsider: Dessa Vann's Tin Troubadours, a group of mediocre actors, formed her own war council. Her armies were beasts and fae spirits. And her scouting party consisted of a pack of goblin Rangers, led by Arvell, a grizzled, grunting troll. The band was better known for noise than stealth until Fia was the one giving the order. Atop a Brass Horse gifted by the Forest Council, she set out to meet her foes.
+
 ## Location
 
 Openhold

@@ -14,6 +14,8 @@ He raised his own army afterward and marched on the Woodland Empire in earnest, 
 
 With Ashvale founded and standing, he kept Ressa Kindler at his own table despite his family's old history of conflict with her clan, and it was through her — a Fire Talker whose own account long outlived her — that he finally learned the true circumstances of his grandmother's death: the third charge, the two the Fire Talkers had turned back before it. A year on, he left Ashvale and traveled to Drowned City himself to settle what the marker there had never said, resolving lingering questions about Isolde's own legacy, including her role in the exile of Wren Sable.
 
+A rusted cauldron he once kept and then had carried as far from his own table as a week's ride would allow has surfaced generations later at what's now called Widowmire — he never explained what it was for or why it gave him nightmares, and nobody who knew him well enough to ask ever did.
+
 ## Location
 
 Fertile Valley

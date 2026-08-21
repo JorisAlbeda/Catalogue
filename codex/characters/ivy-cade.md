@@ -8,9 +8,11 @@ A caravan driver going grey early, forearms corded from a lifetime of reins and 
 
 Born on the Marshes road itself, 511 of the Old Oak, to a caravan family that never kept a fixed address long enough for a birth to happen anywhere else. Ran the last regular route through the Marshes for a decade, hiring Marek Sten on and off despite his habit of vanishing mid-route without a word, and gambling that he was worth the risk again each time. Watched the Growing Wood start taking a season's worth of the road's far end every year, and watched Farrowhold's own protests about it go answered with silence. Lately carries more in the wagon than her own manifest admits to — most of it his — and has decided not to ask what exactly she's not asking about. When Marek finally asked her crew to throw in with him properly, not just for one run's pay, she named her price high and took the deal anyway.
 
+Lost two of every three she brought to the ground he renamed Widowmire the same day she got it, to something that wasn't the bandits and didn't die like them either. Stayed anyway, with the one wagon crew she has left, holding the mire itself now instead of just driving past it.
+
 ## Location
 
-Marshes, Provinces
+Widowmire, Provinces
 
 ## Status
 

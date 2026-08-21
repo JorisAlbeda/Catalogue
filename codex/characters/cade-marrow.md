@@ -12,9 +12,15 @@ Left when the quarry his family's forge had served for three generations was fol
 
 Met Fia once before, the same season the quarry went under — he'd traveled to Openhold to deliver a garrison's oath-blade, and she stopped in the yard to admire the work and say something warm about his family's craft continuing another generation. She never mentioned the quarry, and nothing ever came of it after.
 
+Renamed Mountain to Oathforge the week he retook it. His family had always just called it the mountain, the way you don't name the thing you assume will always be there — he's not making that mistake twice.
+
+## Voice
+
+Plain, forge-trade vocabulary — iron, temper, quench, weight — over anything fancier, and he doesn't reach for a word he wouldn't use standing at an anvil. Says a thing once and expects it to hold rather than repeating himself to soften it. Goes quiet before he decides something, the same pause he used to take checking a blade's color before the last strike. Steady under pressure, right up until his own patience runs out — then clipped and flat rather than raised.
+
 ## Location
 
-Mountain, Hinterland
+Oathforge, Hinterland
 
 ## Status
 
