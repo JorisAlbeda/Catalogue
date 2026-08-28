@@ -14,10 +14,14 @@ Correction: the gang running the Marshes' back streets was never actually driven
 
 Taken at last by Marek Sten, who dug a rusted cauldron free of the same mud Rowan once wouldn't touch and marched on the bandit hold squatting the ground the same day. The bandits broke fast enough, but whatever else lives in that mud didn't — his soldiers came back from the fighting swearing something screamed like a kettle and moved like no bandit does, and two of the three warbands he sent in didn't come back at all. He renamed the ground Widowmire before the mud had even dried on his boots, and hasn't corrected anyone who's called it haunted since.
 
+Held for four months by a single crew, and taken in the fourth by Fia of the Ampa, who came down on it with four companies against Ivy Cade's one and did not need most of them. Cade put her wagon across the crossing and her people died on the far side of it. The mire has been Imperial ground since. The mushrooms have gone on with their conversation without appearing to notice the change.
+
+Senna Coldwell brought her own line back onto it in the fifth month of 540, the first time she had stood on that ground since burying four companies in it. She came to deal. A circle holding the mire's wet end trades in things nobody has been told before, and their speaker — a woman giving her name as Maerin Slough — took one off the Truthwatcher without asking what it was for or offering a name back. The mire's own preaching crowd went out under Openhold's banner the same week.
+
 ## Location
 
 The Provinces
 
 ## Garrison
 
-The Waybound, down to the one warband that walked back out of the mud, still led by Ivy Cade — holding the ground more out of stubbornness now than the fair fight she signed on for.
+Four companies of the Chancellor's own, posted since the fourth month of 540 and doubled in the fifth. They have not moved Ivy Cade's wagon seat off the road, and have fallen into the habit of walking around it rather than past it.

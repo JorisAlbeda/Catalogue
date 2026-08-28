@@ -8,9 +8,11 @@ A Wallwatch sergeant's build kept past the point most give it up — broad throu
 
 Served the Wallwatch under Dunstan Reeve, and stayed on through the gap Reeve's death left, the same gap Senna Coldwell quietly filled from the other side of the same gate for twenty years. When she finally claimed the Wallwatch's own command openly this year, she gave him the company she'd raised out of what was left of the old gate-guard to lead — the Spearbound, oath-sworn and drilled her own way rather than rebuilt exactly as it stood under Reeve. He's never once asked her why she waited twenty years to claim what was already hers in practice.
 
+Marched the Spearbound the length of a hard season since — the marsh, then the ruin at Ancient City, then holding it — and built it back up twice over along the way with fresh hands raised on whatever ground they happened to be standing on. Eight spears strong now, more than it's been since before Reeve's own death, and camped on the Widowmire marsh — the same ground four of his companies went into last month, which he walked back onto without comment when she pointed him at it.
+
 ## Location
 
-Openhold Plains
+Widowmire, Provinces
 
 ## Voice
 

@@ -14,7 +14,7 @@ Watched Farrowhold's own council send the Emissary protest after protest about t
 
 ## Location
 
-Marshes, Provinces
+Threadbare, Provinces
 
 ## Status
 
